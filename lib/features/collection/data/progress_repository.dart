@@ -34,14 +34,19 @@ class HiveProgressRepository implements ProgressRepository {
   }
 
   @override
-  Future<void> write(String id, ProgressEntry entry) =>
-      box.put(id, jsonEncode(entry.toJson()));
+  Future<void> write(String id, ProgressEntry entry) async {
+    await box.put(id, jsonEncode(entry.toJson()));
+    await box.flush();
+  }
 
   @override
-  Future<void> writeAll(Map<String, ProgressEntry> entries) => box.putAll({
-    for (final item in entries.entries)
-      item.key: jsonEncode(item.value.toJson()),
-  });
+  Future<void> writeAll(Map<String, ProgressEntry> entries) async {
+    await box.putAll({
+      for (final item in entries.entries)
+        item.key: jsonEncode(item.value.toJson()),
+    });
+    await box.flush();
+  }
 
   @override
   Future<void> clear() async {
@@ -50,6 +55,7 @@ class HiveProgressRepository implements ProgressRepository {
         .where((key) => !key.startsWith('_'))
         .toList();
     await box.deleteAll(keys);
+    await box.flush();
   }
 }
 

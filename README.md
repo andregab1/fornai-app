@@ -6,7 +6,8 @@ Aplicativo Flutter local e offline para acompanhar uma coleção de Elementais/S
 
 - Catálogo auditado e versionado com 25 Elementais candidatos e 117 entradas.
 - Cinco Elementais e 33 variantes permanecem sinalizados como não confirmados.
-- Progresso persistido imediatamente no Hive CE, separado do catálogo.
+- Progresso persistido imediatamente no Hive CE, separado do catálogo, com flush explícito em disco após cada alteração.
+- Limpar apenas o cache não remove a checklist. Limpar os dados/armazenamento do app ou desinstalá-lo remove dados locais; use o backup JSON antes dessas operações.
 - Estado e valores derivados com Riverpod.
 - Busca, filtros, progresso geral, cards com subchecks, detalhes e ações em lote.
 - Backup JSON por copiar/colar, com validação e importação por mesclagem.

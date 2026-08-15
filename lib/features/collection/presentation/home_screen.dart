@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../catalog/domain/models.dart';
 import '../domain/collection_controller.dart';
+import 'bouncy_checklist.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -300,26 +301,40 @@ class ElementalCard extends StatelessWidget {
                       final checked =
                           state.progress[variant.id]?.collected ?? false;
                       return SizedBox(
-                        height: 44,
-                        child: CheckboxListTile(
-                          contentPadding: EdgeInsets.zero,
-                          dense: true,
-                          controlAffinity: ListTileControlAffinity.leading,
-                          title: Text(variant.name),
-                          subtitle:
-                              variant.validationStatus ==
-                                  ValidationStatus.unconfirmed
-                              ? const Text(
-                                  'Confirmação pendente',
-                                  style: TextStyle(
-                                    fontSize: 11,
-                                    color: AppColors.amber,
-                                  ),
-                                )
-                              : null,
-                          value: checked,
-                          onChanged: (value) =>
-                              actions.toggle(variant.id, value ?? false),
+                        height: 52,
+                        child: InkWell(
+                          onTap: () => actions.toggle(variant.id, !checked),
+                          borderRadius: BorderRadius.circular(8),
+                          child: Row(
+                            children: [
+                              BouncyChecklist(
+                                value: checked,
+                                semanticLabel:
+                                    '${variant.name} de ${elemental.name}',
+                                onChanged: (value) =>
+                                    actions.toggle(variant.id, value),
+                              ),
+                              const SizedBox(width: 8),
+                              Expanded(
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(variant.name),
+                                    if (variant.validationStatus ==
+                                        ValidationStatus.unconfirmed)
+                                      const Text(
+                                        'Confirmação pendente',
+                                        style: TextStyle(
+                                          fontSize: 11,
+                                          color: AppColors.amber,
+                                        ),
+                                      ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       );
                     },
@@ -469,13 +484,9 @@ Future<void> showDetails(
                   for (final variant in elemental.variants)
                     ListTile(
                       contentPadding: EdgeInsets.zero,
-                      leading: Icon(
-                        (state.progress[variant.id]?.collected ?? false)
-                            ? Icons.check_circle
-                            : Icons.circle_outlined,
-                        color: (state.progress[variant.id]?.collected ?? false)
-                            ? AppColors.cyan
-                            : AppColors.muted,
+                      leading: BouncyChecklist(
+                        value: state.progress[variant.id]?.collected ?? false,
+                        semanticLabel: '${variant.name} de ${elemental.name}',
                       ),
                       title: Text(variant.name),
                       subtitle: Text(
