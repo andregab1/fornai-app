@@ -1,0 +1,1062 @@
+﻿{
+    "version":  1,
+    "createdAt":  "2026-08-15T05:10:48.8163197Z",
+    "intendedUse":  "personal, non-public application",
+    "sourceDomain":  "www.fortniteking.com",
+    "ownerAuthorization":  "User explicitly authorized catalog-site images on 2026-08-15",
+    "files":  [
+                  {
+                      "variantId":  "water.normal",
+                      "fileName":  "water_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5009,
+                      "sha256":  "44dfbebef107a7113dbb8f3a376ad6b76941fbcdcd6469bc2ed9496abcc9578b"
+                  },
+                  {
+                      "variantId":  "water.gold",
+                      "fileName":  "water_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5331,
+                      "sha256":  "57ded5cf9c6752f9c0ae4060146ec41e08fc1dffd4c3aa864efbaac277d46be3"
+                  },
+                  {
+                      "variantId":  "water.gummy",
+                      "fileName":  "water_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5076,
+                      "sha256":  "edad238fb522202da291461c03f838b5ae3ef84c7c50f69bb9dd4f392049fa55"
+                  },
+                  {
+                      "variantId":  "water.galaxy",
+                      "fileName":  "water_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5829,
+                      "sha256":  "c7d58b9137db4bf4e55ac2204e5e143c2fc9120f25a397345349dbf545372f27"
+                  },
+                  {
+                      "variantId":  "water.holofoil",
+                      "fileName":  "water_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5372,
+                      "sha256":  "d3dc56461e080fdfc8b574744cdbc4ad0599d4bc2e6148a2fb9e184d107adfd2"
+                  },
+                  {
+                      "variantId":  "water.gem",
+                      "fileName":  "water_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  6304,
+                      "sha256":  "0a25c2606531a63ca2ffd047ad3480cfd1f2cedb2e21844d7253c18babb85790"
+                  },
+                  {
+                      "variantId":  "water.quack",
+                      "fileName":  "water_quack.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/water_quack.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4790,
+                      "sha256":  "83ec43aed21a86a20c5924be02aeb5119b23faeb30a8daedec9a808a03d881d5"
+                  },
+                  {
+                      "variantId":  "earth.normal",
+                      "fileName":  "earth_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4933,
+                      "sha256":  "e401032c009f894fae2a71eebd1dccf11212521000a5c9f40aac8c248d1c6d6d"
+                  },
+                  {
+                      "variantId":  "earth.gold",
+                      "fileName":  "earth_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5360,
+                      "sha256":  "a5ba10eafb391291197d08878d6c8ba54195632b8a6e6ccb3c0e1f62dadacf8b"
+                  },
+                  {
+                      "variantId":  "earth.gummy",
+                      "fileName":  "earth_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4857,
+                      "sha256":  "a0e838b398aa54196bdcc66acc3323f10f5d27ceb364174dd9a9443cd04dbf3c"
+                  },
+                  {
+                      "variantId":  "earth.galaxy",
+                      "fileName":  "earth_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5253,
+                      "sha256":  "9c6d7352cc5c039119428d0f99b13bd1ad33a8f560cca3de0bf39ad36f2441ca"
+                  },
+                  {
+                      "variantId":  "earth.cube",
+                      "fileName":  "earth_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5198,
+                      "sha256":  "a37005f284a7710e3320d6d9ff559fa11fd43eabf396b9dedbe9c3050492402c"
+                  },
+                  {
+                      "variantId":  "earth.gem",
+                      "fileName":  "earth_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5390,
+                      "sha256":  "0c3f4188f5e8e3f3c06f8a20bf571050c87c7ee94aaff4d1785ead1162566c2e"
+                  },
+                  {
+                      "variantId":  "earth.quack",
+                      "fileName":  "earth_quack.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/earth_quack.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4562,
+                      "sha256":  "64719ab1ab69115e7fe587113d88a64a638e40ca293dbab65a110a9267557607"
+                  },
+                  {
+                      "variantId":  "fire.normal",
+                      "fileName":  "fire_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4149,
+                      "sha256":  "fbe826667a4aaece8d4e693e1d49070d294362b8609551c7098c0d47df7f965a"
+                  },
+                  {
+                      "variantId":  "fire.gold",
+                      "fileName":  "fire_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5441,
+                      "sha256":  "44be5201d3a14605ca06ad5070e41b2ef88744af1a9ee0e84b85a54762fd1028"
+                  },
+                  {
+                      "variantId":  "fire.gummy",
+                      "fileName":  "fire_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5251,
+                      "sha256":  "9e246774503016e540de045b0be906e85ba9b2daf74c7cc9d6197e75749a252d"
+                  },
+                  {
+                      "variantId":  "fire.galaxy",
+                      "fileName":  "fire_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  6099,
+                      "sha256":  "2abcf0b47b0a9f229ee9d8e551c03cd7a26db2bfbd18c313c35f5692a15b3a20"
+                  },
+                  {
+                      "variantId":  "fire.holofoil",
+                      "fileName":  "fire_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5258,
+                      "sha256":  "89d470720a923a4439d38274ca8af1859873558362681eea54da58f0849ad448"
+                  },
+                  {
+                      "variantId":  "fire.cube",
+                      "fileName":  "fire_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5209,
+                      "sha256":  "3d49e258617a0d530977da3be374ad2de2d8ed59e01a6008c07796821cad0e6e"
+                  },
+                  {
+                      "variantId":  "fire.quack",
+                      "fileName":  "fire_quack.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fire_quack.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4586,
+                      "sha256":  "e967a6a25908fe9dfe682c30b0e8d8ab1bd31d8b08d8882c314d650dc239cf20"
+                  },
+                  {
+                      "variantId":  "air.normal",
+                      "fileName":  "air_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/air_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  3701,
+                      "sha256":  "99b16b70e46acba7990546c98091c2a0144e0e89be2d3c641c0858d7d12636df"
+                  },
+                  {
+                      "variantId":  "air.gold",
+                      "fileName":  "air_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/air_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4644,
+                      "sha256":  "f1b406a71e2bebd252568a130035555f626d99e4be576f865360ac54d19ee872"
+                  },
+                  {
+                      "variantId":  "air.gummy",
+                      "fileName":  "air_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/air_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4564,
+                      "sha256":  "18f5316edf29a160a52045556f49e9777f5ded9eefcd6da813aacc00813473bf"
+                  },
+                  {
+                      "variantId":  "air.galaxy",
+                      "fileName":  "air_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/air_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5533,
+                      "sha256":  "c989aa45ca02c34665d7142f9a959841a705f9607e62cbba6c2615095f902752"
+                  },
+                  {
+                      "variantId":  "air.holofoil",
+                      "fileName":  "air_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/air_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4905,
+                      "sha256":  "d77dfce84e0f323da2e9c3eec931a6260742a7e31edeeab8f48d6b8ceca5b40c"
+                  },
+                  {
+                      "variantId":  "fishy.normal",
+                      "fileName":  "fishy_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fishy_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4217,
+                      "sha256":  "abe7bbfe0011150bd6613d60b05c2f2d6147fa0a2d6e3ca7fcb4d33eb3fea23a"
+                  },
+                  {
+                      "variantId":  "fishy.gold",
+                      "fileName":  "fishy_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fishy_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4611,
+                      "sha256":  "c95b58e8e32104996e2fb843a617efd6769923279ca290c51cde19fc4e0b921a"
+                  },
+                  {
+                      "variantId":  "fishy.gummy",
+                      "fileName":  "fishy_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fishy_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4338,
+                      "sha256":  "8ef37c5b309f5c239acc96db7a4cb50a8fd34943e220c72b98822f572fcd71f4"
+                  },
+                  {
+                      "variantId":  "fishy.galaxy",
+                      "fileName":  "fishy_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fishy_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5095,
+                      "sha256":  "6125b7091e50bb869b577eb4a6997e22b6d3f2273125a10b1602eccca790176a"
+                  },
+                  {
+                      "variantId":  "fishy.cube",
+                      "fileName":  "fishy_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/fishy_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4748,
+                      "sha256":  "10be174627e9715c53c4285e92e0a7485b985d466ec58f8934595b573c42f4f8"
+                  },
+                  {
+                      "variantId":  "duck.normal",
+                      "fileName":  "duck_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/duck_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4673,
+                      "sha256":  "fef895177ef03e85dc13e2add5b45a33657182f232483e32aa356bfa68b507ce"
+                  },
+                  {
+                      "variantId":  "duck.gold",
+                      "fileName":  "duck_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/duck_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5307,
+                      "sha256":  "0c04013eea7f07efe6318a56f03ffc5e32922446e1996d9dacce36a4e676fad0"
+                  },
+                  {
+                      "variantId":  "duck.gummy",
+                      "fileName":  "duck_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/duck_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4760,
+                      "sha256":  "79daa19eae597c5a03324021fd087cb09a84102192c1917d22de0c2f8451227f"
+                  },
+                  {
+                      "variantId":  "duck.galaxy",
+                      "fileName":  "duck_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/duck_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5085,
+                      "sha256":  "5d26564485aa890fd01dc6adb8d7b8f2872c1770f8bc58fcbd00bb9a9051e8d1"
+                  },
+                  {
+                      "variantId":  "duck.gem",
+                      "fileName":  "duck_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/duck_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4510,
+                      "sha256":  "5f03a1766a17c3e6159b7133361d53f530998ced7d643a511b70ac6706b1d502"
+                  },
+                  {
+                      "variantId":  "ghost.normal",
+                      "fileName":  "ghost_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/ghost_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4473,
+                      "sha256":  "4f8d1a5c600a036085b66c1dfaf8860cf0d5f7d09ada29dfdb51413ff1bd906d"
+                  },
+                  {
+                      "variantId":  "ghost.gold",
+                      "fileName":  "ghost_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/ghost_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5434,
+                      "sha256":  "630ef804f0537d7d8fda255053aed059104345725a6c5f91d41c6e54000566e9"
+                  },
+                  {
+                      "variantId":  "ghost.gummy",
+                      "fileName":  "ghost_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/ghost_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4572,
+                      "sha256":  "d099886d825555cc5e36fd9439b8fdf39ee6b76d2961457bdc441da44da8cfa7"
+                  },
+                  {
+                      "variantId":  "ghost.galaxy",
+                      "fileName":  "ghost_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/ghost_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5460,
+                      "sha256":  "34687a3e48ca971df4d770711b4f9ed3884b474fe62af60a5509e2346fca483c"
+                  },
+                  {
+                      "variantId":  "ghost.holofoil",
+                      "fileName":  "ghost_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/ghost_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4995,
+                      "sha256":  "f409f7e035b2d8404a1b0b0f45b9e6debfda2d99f5e8314b96670a8bdd514b5e"
+                  },
+                  {
+                      "variantId":  "demon.normal",
+                      "fileName":  "demon_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/demon_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5042,
+                      "sha256":  "ec2ea9d36596a668d1d9148740dc708c3129071c3c9ecd9998571f9d24960542"
+                  },
+                  {
+                      "variantId":  "demon.gold",
+                      "fileName":  "demon_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/demon_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5408,
+                      "sha256":  "fd81468d1170793370c34d22bf3b527e8da2920bdce532f98e72f15296c1b47b"
+                  },
+                  {
+                      "variantId":  "demon.gummy",
+                      "fileName":  "demon_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/demon_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4828,
+                      "sha256":  "0aa795f22aa7d21356b0de448d38d8055518f250570b7df4e1bdf577f4c7d834"
+                  },
+                  {
+                      "variantId":  "demon.galaxy",
+                      "fileName":  "demon_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/demon_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5303,
+                      "sha256":  "b0c17e1a03abe93df20b4d18e6a0075da7116301c98e1bc84069a44c81ba7373"
+                  },
+                  {
+                      "variantId":  "demon.gem",
+                      "fileName":  "demon_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/demon_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4466,
+                      "sha256":  "03c70e3ff3da5239922e5b6bf8a217c7e34c0cf3cc353c4ea1c98a71f0260ef6"
+                  },
+                  {
+                      "variantId":  "king.normal",
+                      "fileName":  "king_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/king_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4786,
+                      "sha256":  "27236d4bf341a513724b3be3ba7bbf4803db6886ab5d4236d40e400c602169b8"
+                  },
+                  {
+                      "variantId":  "king.gold",
+                      "fileName":  "king_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/king_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5434,
+                      "sha256":  "8d824f3ee96a98fad86ec303b316b13613ae951d8542c73a90bf70a138bf1c10"
+                  },
+                  {
+                      "variantId":  "king.gummy",
+                      "fileName":  "king_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/king_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4994,
+                      "sha256":  "8551b0de4afb68c8dddc1660ffd1a9af4a300098e9ae1886279c1e6d2eb6edd8"
+                  },
+                  {
+                      "variantId":  "king.galaxy",
+                      "fileName":  "king_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/king_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5339,
+                      "sha256":  "7ba156888581118a0af0460465fd58a4ad9d21ecb3bd9da55047c606713f7cad"
+                  },
+                  {
+                      "variantId":  "king.holofoil",
+                      "fileName":  "king_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/king_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5186,
+                      "sha256":  "213096bc083115d149720a39ee3a1b4be648a3c6c89f79cdf4c189d2b6e977c5"
+                  },
+                  {
+                      "variantId":  "aura.normal",
+                      "fileName":  "aura_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/drifter_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4511,
+                      "sha256":  "4a97440a37c0ce309bd1bf074b5feee7932748ba892fd3d37063829d1d3148a1"
+                  },
+                  {
+                      "variantId":  "aura.gold",
+                      "fileName":  "aura_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/drifter_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5341,
+                      "sha256":  "3eface6cd7cb63ee1d151cc558d94675ef88b8dd433b0873491ca0500e710fce"
+                  },
+                  {
+                      "variantId":  "aura.gummy",
+                      "fileName":  "aura_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/drifter_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4616,
+                      "sha256":  "9c08625a322f51864b01b44f6db00f44ba5f362117cf520d5c9e268e88d85609"
+                  },
+                  {
+                      "variantId":  "aura.galaxy",
+                      "fileName":  "aura_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/drifter_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5206,
+                      "sha256":  "1ff610e7dac3b129707082462040a4db8f86eb28b043eda11e19fc84ac6e637c"
+                  },
+                  {
+                      "variantId":  "aura.gem",
+                      "fileName":  "aura_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/drifter_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4021,
+                      "sha256":  "f33fe7900dda3dc37ee81953deb0442cedc2715bfc36da9b35dd26c7132a0855"
+                  },
+                  {
+                      "variantId":  "striker.normal",
+                      "fileName":  "striker_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/soccer_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4333,
+                      "sha256":  "83888eabae42a51162fe843f3257f26ef79118b62839c8703928d8d3a01be65c"
+                  },
+                  {
+                      "variantId":  "striker.gold",
+                      "fileName":  "striker_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/soccer_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4528,
+                      "sha256":  "a20f06c8f4455f2275e23fb3ce6beccb907b7a55577198a993be5bb87971a7bf"
+                  },
+                  {
+                      "variantId":  "striker.gummy",
+                      "fileName":  "striker_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/soccer_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4661,
+                      "sha256":  "335abf00200a8ce49bbf1bc3a8efd2a0a44bd398f76ffde26112fdc715ada433"
+                  },
+                  {
+                      "variantId":  "striker.galaxy",
+                      "fileName":  "striker_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/soccer_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4778,
+                      "sha256":  "95021259fa90b502813aa845d844a1771333ba9f9a8fe5a4baf9f3f8e1da28f0"
+                  },
+                  {
+                      "variantId":  "striker.holofoil",
+                      "fileName":  "striker_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/soccer_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4463,
+                      "sha256":  "8cdb739f2df7606e497bdee982765060e5444bd56d7f8b5b698786785f82eb8a"
+                  },
+                  {
+                      "variantId":  "dream.normal",
+                      "fileName":  "dream_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/dream_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5142,
+                      "sha256":  "203fbffd2570fe8d2e4152afd7a406739a34709cdaf52d8d1a30497ee758ec76"
+                  },
+                  {
+                      "variantId":  "dream.gold",
+                      "fileName":  "dream_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/dream_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4896,
+                      "sha256":  "2009343b3d8d7d34cb22e1cb7d8314c973c6c20d1fc8b45bde0c26aa21151543"
+                  },
+                  {
+                      "variantId":  "dream.gummy",
+                      "fileName":  "dream_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/dream_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4752,
+                      "sha256":  "82db6f0049e54871e483e5f76fca86425a66e0cb3a4186fe98d32c628539b806"
+                  },
+                  {
+                      "variantId":  "dream.galaxy",
+                      "fileName":  "dream_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/dream_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5402,
+                      "sha256":  "4685f6fc7a6d07ee9eaa926ce9179e54c520a23721ff99f6bb37009e3b706aad"
+                  },
+                  {
+                      "variantId":  "dream.cube",
+                      "fileName":  "dream_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/dream_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4414,
+                      "sha256":  "e1b7718f3617a01b99d00902dc1cfc980754a64e2cc21291ebd9f4299614ece4"
+                  },
+                  {
+                      "variantId":  "punk.normal",
+                      "fileName":  "punk_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/punk_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4842,
+                      "sha256":  "17c8972fa8d09f396873b63a579bc1edb19ee322398740abcc908f5f00cbbed4"
+                  },
+                  {
+                      "variantId":  "punk.gold",
+                      "fileName":  "punk_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/punk_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5085,
+                      "sha256":  "833e52d12828e0355e885fccd1fff86b6eb216fd8b94f9b4caf77092dc460d54"
+                  },
+                  {
+                      "variantId":  "punk.gummy",
+                      "fileName":  "punk_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/punk_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4870,
+                      "sha256":  "4526fb3d326d145fd13ea8b919fa334e0b3de1c81ecbd1d5998b26c9d8481622"
+                  },
+                  {
+                      "variantId":  "punk.galaxy",
+                      "fileName":  "punk_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/punk_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5262,
+                      "sha256":  "754a4264f8ec682cdeb2bb7979d98a82046df5091e22a20442824490cb2a6ce3"
+                  },
+                  {
+                      "variantId":  "punk.cube",
+                      "fileName":  "punk_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/punk_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4880,
+                      "sha256":  "fbbc67ab64742c26ad25f5e806cbbbd8eb50afd51079cfa7d2bce5d99dfb9036"
+                  },
+                  {
+                      "variantId":  "boss.normal",
+                      "fileName":  "boss_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/boss_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4629,
+                      "sha256":  "c1221a43ed4b2060f136c55c46304bc9295ad96f74eddba9e692c60ea0e4d980"
+                  },
+                  {
+                      "variantId":  "boss.gold",
+                      "fileName":  "boss_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/boss_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4983,
+                      "sha256":  "fddc69f8f4ddc0ebd984c17c98a09a93dfaad0856e42ad8446642daa4c03534c"
+                  },
+                  {
+                      "variantId":  "boss.gummy",
+                      "fileName":  "boss_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/boss_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4710,
+                      "sha256":  "0cdb3f12ca03f7a14c2f8383a3073786e9860af06f1987f6f12716ad23f9a97f"
+                  },
+                  {
+                      "variantId":  "boss.galaxy",
+                      "fileName":  "boss_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/boss_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4887,
+                      "sha256":  "7a54045bb031181c6b9bbbd984a1681ee6f03dd91a38cad7959c227227349dac"
+                  },
+                  {
+                      "variantId":  "boss.cube",
+                      "fileName":  "boss_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/boss_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5054,
+                      "sha256":  "a496e0c2bdc6fbd921d42240f0c65eb9c46362ba577f75b016e3d1647998bf7b"
+                  },
+                  {
+                      "variantId":  "seven.normal",
+                      "fileName":  "seven_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/seven_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4862,
+                      "sha256":  "597b222ba8f3a4d667c1aa532c14a13596d58ca9936a5b2bfb0f1db0806a888f"
+                  },
+                  {
+                      "variantId":  "seven.gold",
+                      "fileName":  "seven_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/seven_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4867,
+                      "sha256":  "4db8f47928ef0faac31f567bc2022a6f79e7b710339da69d8a7f4c771020557f"
+                  },
+                  {
+                      "variantId":  "seven.gummy",
+                      "fileName":  "seven_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/seven_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4755,
+                      "sha256":  "531bbe18604e118f1de296ccd9f2f0c6f5b54f1b34190bc58de156ae767fd7a5"
+                  },
+                  {
+                      "variantId":  "seven.galaxy",
+                      "fileName":  "seven_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/seven_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5034,
+                      "sha256":  "5f51d3cea9565af33f9c559ed8c917217b67c9ac15ab96902ddf4bf82a8bade7"
+                  },
+                  {
+                      "variantId":  "seven.holofoil",
+                      "fileName":  "seven_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/seven_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4817,
+                      "sha256":  "1c7a6bf559626f9707ab0f3f6a4630ed7f31dd4f90b0ebe68f5a948adbda6f3c"
+                  },
+                  {
+                      "variantId":  "grim-reaper.normal",
+                      "fileName":  "grim-reaper_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4853,
+                      "sha256":  "592e0d6b3a549b2085655a940ddda23f1dbfe23c044bd9f29e02435390a6df9c"
+                  },
+                  {
+                      "variantId":  "grim-reaper.gold",
+                      "fileName":  "grim-reaper_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5522,
+                      "sha256":  "3dfa1f85d779e997364d09b44e0875dad6773d02289ecc539b1c41f3e3919f48"
+                  },
+                  {
+                      "variantId":  "grim-reaper.gummy",
+                      "fileName":  "grim-reaper_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5047,
+                      "sha256":  "3e5da80f6b4fbfc096ea5c6625481357e4b679bf94ff9b225efff52a4e4fa29f"
+                  },
+                  {
+                      "variantId":  "grim-reaper.galaxy",
+                      "fileName":  "grim-reaper_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5399,
+                      "sha256":  "b6f24422a1a739da6d9ee9279dbc01b5f088c1d8629c635a9737a5788d82505b"
+                  },
+                  {
+                      "variantId":  "grim-reaper.holofoil",
+                      "fileName":  "grim-reaper_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5099,
+                      "sha256":  "bc412d25a1c207bc19dd88f3ad1014dc792c7ee191b8abeb21024326e75998b7"
+                  },
+                  {
+                      "variantId":  "grim-reaper.cube",
+                      "fileName":  "grim-reaper_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5239,
+                      "sha256":  "549d1550d343efea2d5d9d83cc5bb77719de35680ca8eb5421565862fba8f37c"
+                  },
+                  {
+                      "variantId":  "grim-reaper.gem",
+                      "fileName":  "grim-reaper_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/grimreaper_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5515,
+                      "sha256":  "e68d7fc8c541ed69e8fc7bdcc08f79fb938e7a77cfcbb50aec61a23798529b7c"
+                  },
+                  {
+                      "variantId":  "zero-point.normal",
+                      "fileName":  "zero-point_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5096,
+                      "sha256":  "e550433e2200fa948e4ad8c7f29b575ce6d0f80667e07ff9c9c5aaae9b3d00a2"
+                  },
+                  {
+                      "variantId":  "zero-point.gold",
+                      "fileName":  "zero-point_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5155,
+                      "sha256":  "9ebd0937b224582e17a11e7934e5d0198f621a6cf9af5ed27bb06369c9984434"
+                  },
+                  {
+                      "variantId":  "zero-point.gummy",
+                      "fileName":  "zero-point_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5091,
+                      "sha256":  "5e19b814e8e73c9a5abb2f93f4bb3e3506c82842a03403667c9fd85354d0228b"
+                  },
+                  {
+                      "variantId":  "zero-point.galaxy",
+                      "fileName":  "zero-point_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5359,
+                      "sha256":  "0355c189e31c4f125a89a1b976c420980fc1c8a7d0170995a42ae682a30d9969"
+                  },
+                  {
+                      "variantId":  "zero-point.holofoil",
+                      "fileName":  "zero-point_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5626,
+                      "sha256":  "200c8354323cc1bc9193ab506753b6b4430cc4fb3733f9d9f1f0412cd806921b"
+                  },
+                  {
+                      "variantId":  "zero-point.cube",
+                      "fileName":  "zero-point_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4743,
+                      "sha256":  "cfb872f026a11477233dc40a1da4233988542e9ec32c62aec7e12405cbdcc126"
+                  },
+                  {
+                      "variantId":  "zero-point.gem",
+                      "fileName":  "zero-point_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5383,
+                      "sha256":  "a622e91aba25cb1a5e0dac0cd63426971cfa4fdb342bece23c4f3e5e0bb7df16"
+                  },
+                  {
+                      "variantId":  "zero-point.quack",
+                      "fileName":  "zero-point_quack.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/zeropoint_quack.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5438,
+                      "sha256":  "d0cc5dec664fca826a39c17f947b475838f0fa05b7c625fe3e4dbe5ffceef099"
+                  },
+                  {
+                      "variantId":  "batman.normal",
+                      "fileName":  "batman_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/batman_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4642,
+                      "sha256":  "5583efd88a398aae5eb05e3d2cc5d94922d946b1ef8d0d351e5abec7bc6686ce"
+                  },
+                  {
+                      "variantId":  "batman.gold",
+                      "fileName":  "batman_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/batman_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4668,
+                      "sha256":  "1297a53daa781e70a84749d14013451e6ad07a4335edbfef6f8f51571916f977"
+                  },
+                  {
+                      "variantId":  "batman.gummy",
+                      "fileName":  "batman_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/batman_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4726,
+                      "sha256":  "59b02e280a8ef54241029250a66ba04877be9284e1224514003beaf1b3602616"
+                  },
+                  {
+                      "variantId":  "batman.galaxy",
+                      "fileName":  "batman_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/batman_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5112,
+                      "sha256":  "35c694bb6f7c25df199e2d2776ded65981747c2dc2b77cc11225ecc63a5ff1a2"
+                  },
+                  {
+                      "variantId":  "batman.holofoil",
+                      "fileName":  "batman_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/batman_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4555,
+                      "sha256":  "6f5b178bb7ab3d6e5e49c0135193b495c5b4ab25831ba9deb6682d8412dbd074"
+                  },
+                  {
+                      "variantId":  "batman.cube",
+                      "fileName":  "batman_cube.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/batman_cube.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4821,
+                      "sha256":  "b2cea56ad3d97c6af7f020504935545e4f0381f4c5b689bc27875b7d0d0a9c9e"
+                  },
+                  {
+                      "variantId":  "john-wick.normal",
+                      "fileName":  "john-wick_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/johnwick_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5521,
+                      "sha256":  "c3e38a35bbe7a209f6e59ffea5427bd0d5c75c4a36ae481cae4d859c067ea6c8"
+                  },
+                  {
+                      "variantId":  "burnt-peanut.normal",
+                      "fileName":  "burnt-peanut_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/theburntpeanut_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4898,
+                      "sha256":  "4454629e2ee3c3a10a63e40ae244065c63fa3a1264b3a520bdbc4c38ed253121"
+                  },
+                  {
+                      "variantId":  "pollo.normal",
+                      "fileName":  "pollo_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/pollo_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5624,
+                      "sha256":  "d4825f0dd19d42d3ebb51fceaac797c4189c6d3e602963555872391631053ced"
+                  },
+                  {
+                      "variantId":  "vini-jr.normal",
+                      "fileName":  "vini-jr_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/vinijr_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4276,
+                      "sha256":  "6598f47c016b5f83b59f9c6e2fd67d31f72da85c16211b63a3bda1acd082f555"
+                  },
+                  {
+                      "variantId":  "ironmouse.normal",
+                      "fileName":  "ironmouse_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/ironmouse_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  5823,
+                      "sha256":  "7dc0aff5ca3f20d3e705bad0679fbe05285f37077db68ba036d8cd22da827d09"
+                  },
+                  {
+                      "variantId":  "llama.normal",
+                      "fileName":  "llama_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/llama_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4342,
+                      "sha256":  "7b1377218eebc252a4d1620f5aba3914181efd9695101aeecc89df9237578fad"
+                  },
+                  {
+                      "variantId":  "llama.gold",
+                      "fileName":  "llama_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/llama_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4129,
+                      "sha256":  "0b8333775767f2e38c7fa6546fd20a9ac4719ba48d9619ed4d76645053457771"
+                  },
+                  {
+                      "variantId":  "llama.gummy",
+                      "fileName":  "llama_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/llama_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4409,
+                      "sha256":  "a20d0b4a7c61860b12a37172cd0263d5c400108b33927eb9c1726443b8293e5d"
+                  },
+                  {
+                      "variantId":  "llama.galaxy",
+                      "fileName":  "llama_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/llama_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4511,
+                      "sha256":  "b0c92a3a58ce29d82d889670f1fd985e227cb387f61e7cff3e63e1d97bdbd9b4"
+                  },
+                  {
+                      "variantId":  "llama.gem",
+                      "fileName":  "llama_gem.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/llama_gem.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  2848,
+                      "sha256":  "7226c3a262102efc3815a3a3d0d0c987803961c98699d0784b10a0eb44ead450"
+                  },
+                  {
+                      "variantId":  "peely.normal",
+                      "fileName":  "peely_normal.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/peely_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4132,
+                      "sha256":  "37da36bafef7fedc3931d02f258b0f7a345c17fd329b0d3e82c213ea76d31c54"
+                  },
+                  {
+                      "variantId":  "peely.gold",
+                      "fileName":  "peely_gold.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/peely_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  3934,
+                      "sha256":  "a6339e834deba6b558c42ea7a1062d6e203ed5e6bf3dd2ea2cb819087fc44af4"
+                  },
+                  {
+                      "variantId":  "peely.gummy",
+                      "fileName":  "peely_gummy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/peely_candy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4273,
+                      "sha256":  "4bec3e9e77b4dffb319ce656c3776050a7a2f9bd1abbe7ce96d120b826413ec0"
+                  },
+                  {
+                      "variantId":  "peely.galaxy",
+                      "fileName":  "peely_galaxy.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/peely_galaxy.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4809,
+                      "sha256":  "1c782f2d3a15042291187d45494312dfd38f70a848c8b3a0134d430fbaab3893"
+                  },
+                  {
+                      "variantId":  "peely.holofoil",
+                      "fileName":  "peely_holofoil.png",
+                      "sourceUrl":  "https://www.fortniteking.com/sprites/peely_holofoil.png",
+                      "status":  "downloaded",
+                      "http":  "200|image/png",
+                      "bytes":  4120,
+                      "sha256":  "f67a6fa9253ca2fc5ada9ccfc94a9761e23f511c374b50c4f2f5d555277753fa"
+                  }
+              ]
+}

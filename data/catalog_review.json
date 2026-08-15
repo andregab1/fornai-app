@@ -1,0 +1,1633 @@
+{
+    "catalog_version":  "audit-2026-08-15.1",
+    "audit_date":  "2026-08-15",
+    "status":  "research_snapshot_not_approved_for_runtime",
+    "summary":  {
+                    "candidate_elementals":  25,
+                    "confirmed_elementals":  20,
+                    "unconfirmed_elementals":  5,
+                    "candidate_trackable_variants":  117,
+                    "confirmed_variants":  84,
+                    "unconfirmed_variants":  33,
+                    "potential_bundle_combinations":  165,
+                    "visible_site_claim":  "22 elementals / 83 variants (stale/conflicting)",
+                    "images_downloaded":  0,
+                    "duplicate_images":  "not_assessed_without_authorized_download"
+                },
+    "sources":  [
+                    {
+                        "url":  "https://www.fortniteking.com/",
+                        "official":  false,
+                        "consulted":  "HTML and public Next.js JavaScript",
+                        "notes":  "Unofficial; current bundle conflicts with visible 22/83 copy."
+                    },
+                    {
+                        "url":  "https://www.fortniteking.com/robots.txt",
+                        "official":  false,
+                        "consulted":  "2026-08-15",
+                        "notes":  "General allow; auth/admin excluded; reference use signal; restricted paths not accessed."
+                    },
+                    {
+                        "url":  "https://www.fortnite.com/news/extract-and-collect-sprites-on-a-new-map-in-fortnite-runners",
+                        "official":  true,
+                        "notes":  "Season/Sprite mechanic."
+                    },
+                    {
+                        "url":  "https://communities.epicgames.com/thread/v41-00-update-notes-grab-a-sprite-get-out-alive-fortnite-runners-is-here/M7Tt",
+                        "official":  true,
+                        "notes":  "Initial named Sprite list."
+                    },
+                    {
+                        "url":  "https://communities.epicgames.com/thread/v41-10-fortnite-runners-battle-royale-update-notes/yZMQ/",
+                        "official":  true,
+                        "notes":  "Five additional named Sprites."
+                    },
+                    {
+                        "url":  "https://www.fortnite.com/news/dc-sirens-bring-the-heat-to-fortnite",
+                        "official":  true,
+                        "notes":  "Batman Sprite and standard variants."
+                    },
+                    {
+                        "url":  "https://communities.epicgames.com/thread/v41-30-act-iii-battle-royale-update-notes/LMZJ",
+                        "official":  true,
+                        "notes":  "Llama, Peely, Holofoil/Cube and Quack details."
+                    },
+                    {
+                        "url":  "https://www.epicgames.com/help/c-202300000001636/c-202300000001721/what-are-sprites-in-fortnite-a202300000086190",
+                        "official":  true,
+                        "notes":  "Official mechanic description."
+                    }
+                ],
+    "elementals":  [
+                       {
+                           "id":  "water",
+                           "name":  "Água",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/water_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "water.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "water.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "water.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "water.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "water.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "water.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "water.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/water_quack.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "earth",
+                           "name":  "Terra",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/earth_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "earth.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "earth.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "earth.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "earth.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "earth.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "earth.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "earth.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/earth_quack.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "fire",
+                           "name":  "Fogo",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/fire_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "fire.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fire.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fire.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fire.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fire.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "fire.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "fire.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fire_quack.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "air",
+                           "name":  "Ar",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/air_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "air.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/air_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "air.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/air_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "air.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/air_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "air.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/air_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "air.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/air_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "fishy",
+                           "name":  "Peixoto",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/fishy_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "fishy.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fishy_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fishy.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fishy_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fishy.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fishy_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fishy.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fishy_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "fishy.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/fishy_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "duck",
+                           "name":  "Pato",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/duck_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "duck.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/duck_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "duck.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/duck_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "duck.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/duck_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "duck.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/duck_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "duck.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/duck_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "ghost",
+                           "name":  "Fantasma",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/ghost_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "ghost.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/ghost_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "ghost.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/ghost_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "ghost.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/ghost_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "ghost.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/ghost_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "ghost.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/ghost_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "demon",
+                           "name":  "Demônio",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/demon_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "demon.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/demon_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "demon.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/demon_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "demon.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/demon_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "demon.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/demon_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "demon.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/demon_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "king",
+                           "name":  "Rei",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/king_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "king.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/king_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "king.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/king_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "king.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/king_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "king.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/king_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "king.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/king_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "aura",
+                           "name":  "Aura",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/drifter_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "aura.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/drifter_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "aura.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/drifter_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "aura.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/drifter_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "aura.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/drifter_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "aura.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/drifter_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "striker",
+                           "name":  "Atacante",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/soccer_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "striker.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/soccer_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "striker.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/soccer_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "striker.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/soccer_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "striker.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/soccer_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "striker.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/soccer_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "dream",
+                           "name":  "Sonho",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/dream_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "dream.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/dream_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "dream.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/dream_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "dream.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/dream_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "dream.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/dream_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "dream.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/dream_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "punk",
+                           "name":  "Punk",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/punk_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "punk.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/punk_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "punk.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/punk_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "punk.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/punk_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "punk.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/punk_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "punk.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/punk_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "boss",
+                           "name":  "Chefe",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/boss_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "boss.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/boss_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "boss.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/boss_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "boss.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/boss_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "boss.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/boss_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "boss.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/boss_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "seven",
+                           "name":  "Seven",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/seven_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "seven.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/seven_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "seven.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/seven_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "seven.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/seven_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "seven.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/seven_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "seven.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/seven_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "grim-reaper",
+                           "name":  "Ceifador",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/grimreaper_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "grim-reaper.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "grim-reaper.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "grim-reaper.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "grim-reaper.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "grim-reaper.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "grim-reaper.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "grim-reaper.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/grimreaper_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "zero-point",
+                           "name":  "Ponto Zero",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/zeropoint_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "zero-point.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "zero-point.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "zero-point.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "zero-point.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "zero-point.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "zero-point.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "zero-point.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            },
+                                            {
+                                                "id":  "zero-point.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/zeropoint_quack.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "batman",
+                           "name":  "Batman",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/batman_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "batman.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/batman_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "batman.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/batman_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "batman.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/batman_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "batman.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/batman_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "batman.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/batman_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "batman.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/batman_cube.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "john-wick",
+                           "name":  "John Wick",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "disputed",
+                           "validation_status":  "unconfirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/johnwick_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "john-wick.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "disputed",
+                                                "image_url":  "https://www.fortniteking.com/sprites/johnwick_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Not item-specifically confirmed by an official source located during this pass."
+                       },
+                       {
+                           "id":  "burnt-peanut",
+                           "name":  "Amendoim Torrado",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "unconfirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/theburntpeanut_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "burnt-peanut.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/theburntpeanut_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Not item-specifically confirmed by an official source located during this pass."
+                       },
+                       {
+                           "id":  "pollo",
+                           "name":  "Pollo",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "unconfirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/pollo_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "pollo.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/pollo_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Not item-specifically confirmed by an official source located during this pass."
+                       },
+                       {
+                           "id":  "vini-jr",
+                           "name":  "Vini Jr.",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "unconfirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/vinijr_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "vini-jr.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/vinijr_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Not item-specifically confirmed by an official source located during this pass."
+                       },
+                       {
+                           "id":  "ironmouse",
+                           "name":  "Ironmouse",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "unconfirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/ironmouse_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "ironmouse.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/ironmouse_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Not item-specifically confirmed by an official source located during this pass."
+                       },
+                       {
+                           "id":  "llama",
+                           "name":  "Lootin\u0027 Llama",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/llama_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "llama.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/llama_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "llama.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/llama_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "llama.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/llama_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "llama.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/llama_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "llama.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/llama_gem.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       },
+                       {
+                           "id":  "peely",
+                           "name":  "Peeky Peely",
+                           "season":  "Fortnite Chapter 7 Season 3 (reference claim; recheck current season)",
+                           "availability":  "available_candidate",
+                           "validation_status":  "confirmed",
+                           "primary_image_url":  "https://www.fortniteking.com/sprites/peely_basic.png",
+                           "variants":  [
+                                            {
+                                                "id":  "peely.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/peely_basic.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "peely.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/peely_gold.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "peely.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/peely_candy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "peely.galaxy",
+                                                "name":  "Galáctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/peely_galaxy.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "confirmed",
+                                                "observations":  "Supported by located official material plus audited structure; exact in-game pt-BR label still requires review."
+                                            },
+                                            {
+                                                "id":  "peely.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available_candidate",
+                                                "image_url":  "https://www.fortniteking.com/sprites/peely_holofoil.png",
+                                                "image_domain":  "www.fortniteking.com",
+                                                "image_source_official":  false,
+                                                "validation_status":  "unconfirmed",
+                                                "observations":  "Present in unofficial public bundle or community evidence; requires item-specific official/in-game confirmation."
+                                            }
+                                        ],
+                           "observations":  "Name/item located in Epic/Fortnite material; localized display label may require in-game pt-BR verification."
+                       }
+                   ],
+    "uncertainties":  [
+                          "Visible page says 22/83 while current JavaScript yields 25 candidates and 117 trackable entries.",
+                          "John Wick is called coming soon in stale copy but is not in the current code coming-soon set.",
+                          "No official complete machine-readable catalog was located.",
+                          "All discovered item image URLs are hosted by the unofficial reference site and lack located redistribution permission.",
+                          "Availability is event/time sensitive and must be re-audited before implementation."
+                      ],
+    "recommendation":  "Human review required. Do not ship this catalog or any discovered images until records, pt-BR names, availability, and asset rights are approved."
+}

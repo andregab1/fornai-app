@@ -1,0 +1,1168 @@
+{
+    "schemaVersion":  1,
+    "catalogVersion":  "2026-08-15.1",
+    "auditedAt":  "2026-08-15T00:00:00-03:00",
+    "elementals":  [
+                       {
+                           "id":  "water",
+                           "name":  "ÃƒÂgua",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "water.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/water_normal.png"
+                                            },
+                                            {
+                                                "id":  "water.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/water_gold.png"
+                                            },
+                                            {
+                                                "id":  "water.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/water_gummy.png"
+                                            },
+                                            {
+                                                "id":  "water.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/water_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "water.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/water_holofoil.png"
+                                            },
+                                            {
+                                                "id":  "water.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/water_gem.png"
+                                            },
+                                            {
+                                                "id":  "water.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/water_quack.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "earth",
+                           "name":  "Terra",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "earth.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_normal.png"
+                                            },
+                                            {
+                                                "id":  "earth.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_gold.png"
+                                            },
+                                            {
+                                                "id":  "earth.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_gummy.png"
+                                            },
+                                            {
+                                                "id":  "earth.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "earth.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_cube.png"
+                                            },
+                                            {
+                                                "id":  "earth.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_gem.png"
+                                            },
+                                            {
+                                                "id":  "earth.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/earth_quack.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "fire",
+                           "name":  "Fogo",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "fire.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_normal.png"
+                                            },
+                                            {
+                                                "id":  "fire.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_gold.png"
+                                            },
+                                            {
+                                                "id":  "fire.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_gummy.png"
+                                            },
+                                            {
+                                                "id":  "fire.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "fire.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_holofoil.png"
+                                            },
+                                            {
+                                                "id":  "fire.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_cube.png"
+                                            },
+                                            {
+                                                "id":  "fire.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/fire_quack.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "air",
+                           "name":  "Ar",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "air.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/air_normal.png"
+                                            },
+                                            {
+                                                "id":  "air.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/air_gold.png"
+                                            },
+                                            {
+                                                "id":  "air.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/air_gummy.png"
+                                            },
+                                            {
+                                                "id":  "air.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/air_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "air.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/air_holofoil.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "fishy",
+                           "name":  "Peixoto",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "fishy.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fishy_normal.png"
+                                            },
+                                            {
+                                                "id":  "fishy.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fishy_gold.png"
+                                            },
+                                            {
+                                                "id":  "fishy.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fishy_gummy.png"
+                                            },
+                                            {
+                                                "id":  "fishy.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/fishy_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "fishy.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/fishy_cube.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "duck",
+                           "name":  "Pato",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "duck.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/duck_normal.png"
+                                            },
+                                            {
+                                                "id":  "duck.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/duck_gold.png"
+                                            },
+                                            {
+                                                "id":  "duck.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/duck_gummy.png"
+                                            },
+                                            {
+                                                "id":  "duck.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/duck_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "duck.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/duck_gem.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "ghost",
+                           "name":  "Fantasma",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "ghost.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/ghost_normal.png"
+                                            },
+                                            {
+                                                "id":  "ghost.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/ghost_gold.png"
+                                            },
+                                            {
+                                                "id":  "ghost.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/ghost_gummy.png"
+                                            },
+                                            {
+                                                "id":  "ghost.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/ghost_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "ghost.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/ghost_holofoil.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "demon",
+                           "name":  "DemÃƒÂ´nio",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "demon.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/demon_normal.png"
+                                            },
+                                            {
+                                                "id":  "demon.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/demon_gold.png"
+                                            },
+                                            {
+                                                "id":  "demon.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/demon_gummy.png"
+                                            },
+                                            {
+                                                "id":  "demon.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/demon_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "demon.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/demon_gem.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "king",
+                           "name":  "Rei",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "king.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/king_normal.png"
+                                            },
+                                            {
+                                                "id":  "king.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/king_gold.png"
+                                            },
+                                            {
+                                                "id":  "king.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/king_gummy.png"
+                                            },
+                                            {
+                                                "id":  "king.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/king_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "king.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/king_holofoil.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "aura",
+                           "name":  "Aura",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "aura.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/aura_normal.png"
+                                            },
+                                            {
+                                                "id":  "aura.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/aura_gold.png"
+                                            },
+                                            {
+                                                "id":  "aura.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/aura_gummy.png"
+                                            },
+                                            {
+                                                "id":  "aura.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/aura_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "aura.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/aura_gem.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "striker",
+                           "name":  "Atacante",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "striker.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/striker_normal.png"
+                                            },
+                                            {
+                                                "id":  "striker.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/striker_gold.png"
+                                            },
+                                            {
+                                                "id":  "striker.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/striker_gummy.png"
+                                            },
+                                            {
+                                                "id":  "striker.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/striker_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "striker.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/striker_holofoil.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "dream",
+                           "name":  "Sonho",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "dream.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/dream_normal.png"
+                                            },
+                                            {
+                                                "id":  "dream.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/dream_gold.png"
+                                            },
+                                            {
+                                                "id":  "dream.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/dream_gummy.png"
+                                            },
+                                            {
+                                                "id":  "dream.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/dream_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "dream.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/dream_cube.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "punk",
+                           "name":  "Punk",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "punk.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/punk_normal.png"
+                                            },
+                                            {
+                                                "id":  "punk.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/punk_gold.png"
+                                            },
+                                            {
+                                                "id":  "punk.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/punk_gummy.png"
+                                            },
+                                            {
+                                                "id":  "punk.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/punk_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "punk.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/punk_cube.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "boss",
+                           "name":  "Chefe",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "boss.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/boss_normal.png"
+                                            },
+                                            {
+                                                "id":  "boss.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/boss_gold.png"
+                                            },
+                                            {
+                                                "id":  "boss.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/boss_gummy.png"
+                                            },
+                                            {
+                                                "id":  "boss.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/boss_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "boss.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/boss_cube.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "seven",
+                           "name":  "Seven",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "seven.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/seven_normal.png"
+                                            },
+                                            {
+                                                "id":  "seven.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/seven_gold.png"
+                                            },
+                                            {
+                                                "id":  "seven.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/seven_gummy.png"
+                                            },
+                                            {
+                                                "id":  "seven.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/seven_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "seven.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/seven_holofoil.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "grim-reaper",
+                           "name":  "Ceifador",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "grim-reaper.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_normal.png"
+                                            },
+                                            {
+                                                "id":  "grim-reaper.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_gold.png"
+                                            },
+                                            {
+                                                "id":  "grim-reaper.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_gummy.png"
+                                            },
+                                            {
+                                                "id":  "grim-reaper.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "grim-reaper.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_holofoil.png"
+                                            },
+                                            {
+                                                "id":  "grim-reaper.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_cube.png"
+                                            },
+                                            {
+                                                "id":  "grim-reaper.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/grim-reaper_gem.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "zero-point",
+                           "name":  "Ponto Zero",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "zero-point.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_normal.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_gold.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_gummy.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_holofoil.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_cube.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_gem.png"
+                                            },
+                                            {
+                                                "id":  "zero-point.quack",
+                                                "name":  "Quack",
+                                                "type":  "quack",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/zero-point_quack.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "batman",
+                           "name":  "Batman",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "batman.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/batman_normal.png"
+                                            },
+                                            {
+                                                "id":  "batman.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/batman_gold.png"
+                                            },
+                                            {
+                                                "id":  "batman.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/batman_gummy.png"
+                                            },
+                                            {
+                                                "id":  "batman.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/batman_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "batman.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/batman_holofoil.png"
+                                            },
+                                            {
+                                                "id":  "batman.cube",
+                                                "name":  "Cubo",
+                                                "type":  "cube",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/batman_cube.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "john-wick",
+                           "name":  "John Wick",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "comingSoon",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "john-wick.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "comingSoon",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/john-wick_normal.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "burnt-peanut",
+                           "name":  "Amendoim Torrado",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "burnt-peanut.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/burnt-peanut_normal.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "pollo",
+                           "name":  "Pollo",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "pollo.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/pollo_normal.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "vini-jr",
+                           "name":  "Vini Jr.",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "vini-jr.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/vini-jr_normal.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "ironmouse",
+                           "name":  "Ironmouse",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "ironmouse.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/ironmouse_normal.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "llama",
+                           "name":  "Lootin\u0027 Llama",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "llama.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/llama_normal.png"
+                                            },
+                                            {
+                                                "id":  "llama.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/llama_gold.png"
+                                            },
+                                            {
+                                                "id":  "llama.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/llama_gummy.png"
+                                            },
+                                            {
+                                                "id":  "llama.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/llama_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "llama.gem",
+                                                "name":  "Gema",
+                                                "type":  "gem",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/llama_gem.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "peely",
+                           "name":  "Peeky Peely",
+                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "availability":  "available",
+                           "validationStatus":  "confirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "peely.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/peely_normal.png"
+                                            },
+                                            {
+                                                "id":  "peely.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/peely_gold.png"
+                                            },
+                                            {
+                                                "id":  "peely.gummy",
+                                                "name":  "Gelatinoso",
+                                                "type":  "gummy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/peely_gummy.png"
+                                            },
+                                            {
+                                                "id":  "peely.galaxy",
+                                                "name":  "GalÃƒÂ¡ctico",
+                                                "type":  "galaxy",
+                                                "availability":  "available",
+                                                "validationStatus":  "confirmed",
+                                                "imageAsset":  "assets/images/elementals/peely_galaxy.png"
+                                            },
+                                            {
+                                                "id":  "peely.holofoil",
+                                                "name":  "Metalizado",
+                                                "type":  "holofoil",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/peely_holofoil.png"
+                                            }
+                                        ]
+                       }
+                   ]
+}
