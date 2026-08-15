@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../catalog/domain/models.dart';
 import '../domain/collection_controller.dart';
-import 'bouncy_checklist.dart';
+import 'heart_checklist.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -307,7 +307,7 @@ class ElementalCard extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8),
                           child: Row(
                             children: [
-                              BouncyChecklist(
+                              HeartChecklist(
                                 value: checked,
                                 semanticLabel:
                                     '${variant.name} de ${elemental.name}',
@@ -484,7 +484,7 @@ Future<void> showDetails(
                   for (final variant in elemental.variants)
                     ListTile(
                       contentPadding: EdgeInsets.zero,
-                      leading: BouncyChecklist(
+                      leading: HeartChecklist(
                         value: state.progress[variant.id]?.collected ?? false,
                         semanticLabel: '${variant.name} de ${elemental.name}',
                       ),
