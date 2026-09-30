@@ -111,10 +111,7 @@ class _HeartChecklistState extends State<HeartChecklist>
 }
 
 class _HeartPainter extends CustomPainter {
-  const _HeartPainter({
-    required this.color,
-    required this.filled,
-  });
+  const _HeartPainter({required this.color, required this.filled});
 
   final Color color;
   final bool filled;

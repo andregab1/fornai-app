@@ -31,7 +31,13 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/android/build/
 /coverage/
+.playwright-cli/
+chrome-*.png
+frontend-redesign*.png
+tmp_edit_catalog_ui.js
+tmp_old_catalog.json
 
 # Symbolication related
 app.*.symbols

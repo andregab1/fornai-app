@@ -93,3 +93,10 @@ Do **not** ship the discovered images, hotlink them, or treat their public URLs 
 - Availability changes are time/event driven and may change after this audit date.
 - Some localized labels are fan translations and require in-game pt-BR verification.
 - No official complete machine-readable catalog or official transparent-art CDN mapping was located.
+## Re-audit — 2026-09-30
+
+- The bundled catalog now targets Chapter 7 Season 4 (Override), catalog version 2026-09-30.1.
+- The public fnsprites.info Season 4 data file supplied 23 Elemental groups and 103 variant records, including unreleased Birthday variants marked `comingSoon`.
+- New records use stable `s4.*` IDs, remain `unconfirmed` because the source is unofficial, and use local PNG copies only.
+- Previous Season 3 progress keys remain in Hive as orphaned entries; replacing the bundled catalog does not clear them.
+- Source robots.txt was checked on 2026-09-30. No public image redistribution license was located; assets remain restricted to the private, non-public prototype pending rights review.

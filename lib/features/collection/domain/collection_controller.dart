@@ -12,23 +12,41 @@ enum CollectionFilter {
   comingSoon,
 }
 
+enum CollectionSeason { current, legacy }
+
 class CollectionState {
   const CollectionState({
     required this.catalog,
     required this.progress,
     this.query = '',
     this.filter = CollectionFilter.all,
+    this.season = CollectionSeason.current,
     this.errorMessage,
   });
   final Catalog catalog;
   final Map<String, ProgressEntry> progress;
   final String query;
   final CollectionFilter filter;
+  final CollectionSeason season;
   final String? errorMessage;
 
+  List<Elemental> get seasonElementals {
+    final targetSeason = season == CollectionSeason.current
+        ? catalog.elementals.first.season
+        : catalog.elementals.last.season;
+    return catalog.elementals
+        .where((elemental) => elemental.season == targetSeason)
+        .toList(growable: false);
+  }
+
+  Set<String> get seasonVariantIds => {
+    for (final elemental in seasonElementals)
+      for (final variant in elemental.variants) variant.id,
+  };
+
   int get collectedCount =>
-      catalog.variantIds.where((id) => progress[id]?.collected ?? false).length;
-  int get totalCount => catalog.variantIds.length;
+      seasonVariantIds.where((id) => progress[id]?.collected ?? false).length;
+  int get totalCount => seasonVariantIds.length;
   double get completion => totalCount == 0 ? 0 : collectedCount / totalCount;
 
   int collectedFor(Elemental elemental) => elemental.variants
@@ -37,7 +55,7 @@ class CollectionState {
 
   List<Elemental> get visibleElementals {
     final normalized = _normalize(query);
-    return catalog.elementals
+    return seasonElementals
         .where((elemental) {
           final count = collectedFor(elemental);
           final matchesSearch =
@@ -63,6 +81,7 @@ class CollectionState {
     Map<String, ProgressEntry>? progress,
     String? query,
     CollectionFilter? filter,
+    CollectionSeason? season,
     String? errorMessage,
     bool clearError = false,
   }) => CollectionState(
@@ -70,6 +89,7 @@ class CollectionState {
     progress: progress ?? this.progress,
     query: query ?? this.query,
     filter: filter ?? this.filter,
+    season: season ?? this.season,
     errorMessage: clearError ? null : errorMessage ?? this.errorMessage,
   );
 }
@@ -108,6 +128,8 @@ class CollectionController extends Notifier<CollectionState> {
       state = state.copyWith(query: value, clearError: true);
   void setFilter(CollectionFilter value) =>
       state = state.copyWith(filter: value, clearError: true);
+  void setSeason(CollectionSeason value) =>
+      state = state.copyWith(season: value, clearError: true);
 
   Future<void> toggle(String variantId, bool collected) async {
     final next = Map<String, ProgressEntry>.of(state.progress);

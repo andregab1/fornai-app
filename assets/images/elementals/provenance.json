@@ -1,9 +1,10 @@
-﻿{
+{
     "version":  1,
     "createdAt":  "2026-08-15T05:10:48.8163197Z",
     "intendedUse":  "personal, non-public application",
-    "sourceDomain":  "www.fortniteking.com",
-    "ownerAuthorization":  "User explicitly authorized catalog-site images on 2026-08-15",
+    "sourceDomain":  "www.fortniteking.com; fnsprites.info",
+    "ownerAuthorization":  "User explicitly authorized the private, non-public Season 4 prototype update on 2026-09-30",
+    "checkedAt":  "2026-09-30T00:00:00-03:00",
     "files":  [
                   {
                       "variantId":  "water.normal",
@@ -1057,6 +1058,1036 @@
                       "http":  "200|image/png",
                       "bytes":  4120,
                       "sha256":  "f67a6fa9253ca2fc5ada9ccfc94a9761e23f511c374b50c4f2f5d555277753fa"
+                  },
+                  {
+                      "variantId":  "s4.bush.normal",
+                      "fileName":  "season4_bush_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/bush_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  335664,
+                      "sha256":  "63b5133595fbea033824ff91198b71ac02a37cf1b666385ab0c186e1abd08220",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.bush.gold",
+                      "fileName":  "season4_bush_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/bush_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  351929,
+                      "sha256":  "db698d38434ed4a3e88f4b27cf6fe6279e1ea3275cffee5827c09f4b7eb13a60",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.bush.cheatmaster",
+                      "fileName":  "season4_bush_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/bush_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  344587,
+                      "sha256":  "eb19df96bdba4440aab009a61cb28ff643dfe6c66e157ff7ccbaeb5cd99400cd",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.bush.loothacker",
+                      "fileName":  "season4_bush_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/bush_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  277874,
+                      "sha256":  "85371109418e00dcd626b67102396c2e9d8c95d9bb52c550fa065e3806ffee53",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.bush.bountyhunter",
+                      "fileName":  "season4_bush_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/bush_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  275600,
+                      "sha256":  "d40eb9e255d7e87cddfb78b5889979c85f7f540c1d5710118732984878768919",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.adventure.normal",
+                      "fileName":  "season4_adventure_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/adventure_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  332884,
+                      "sha256":  "f70094b9a631e6e3aac659ab3ebbce73b3d4a2ddd38fcf09faad6d1d8ef5b3d2",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.adventure.gold",
+                      "fileName":  "season4_adventure_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/adventure_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  323350,
+                      "sha256":  "eb7e1be082406d7cc931bdc3c5d2f9e82afb2a3f7588bb8af6b0a85d3e561c7a",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.adventure.cheatmaster",
+                      "fileName":  "season4_adventure_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/adventure_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  319538,
+                      "sha256":  "cade21d9dce279cddcaa2543925190363f7c5f406fbb464a6500e9197930acf8",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.adventure.loothacker",
+                      "fileName":  "season4_adventure_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/adventure_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  306537,
+                      "sha256":  "048f6d05c5365620ea1f4966ff68e215a0ac1db6ae05d9d05f1540ac80239a20",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.adventure.bountyhunter",
+                      "fileName":  "season4_adventure_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/adventure_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  320485,
+                      "sha256":  "fc5e07f53ed49af6f6229ddcaff43bd017975ea957d64083b54ea045a570b2be",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jonesy.normal",
+                      "fileName":  "season4_jonesy_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jonesy_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  323165,
+                      "sha256":  "658d0306113e9ef196dc4a6db985a48005a3e04054f2fb80e955f3c4740f073e",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jonesy.gold",
+                      "fileName":  "season4_jonesy_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jonesy_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  313428,
+                      "sha256":  "8842a84eef64351aea2f72a27c3c599692bce77d94e14d6fe81c170c2da4b42f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jonesy.cheatmaster",
+                      "fileName":  "season4_jonesy_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jonesy_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  320919,
+                      "sha256":  "9eb34422dd037da9a3e9203b9be57eaacc869acdfead6f2c806bf67e38bb353d",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jonesy.loothacker",
+                      "fileName":  "season4_jonesy_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jonesy_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  293528,
+                      "sha256":  "2bec163ed4a90b026b5dd9d95d463165b7a41e0344174e0574628b907c64ca01",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jonesy.bountyhunter",
+                      "fileName":  "season4_jonesy_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jonesy_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  284996,
+                      "sha256":  "a2ea06e88d6f836e51e412023c127b8408ef06eeae6371e2d7835aebef264f7f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.tails.normal",
+                      "fileName":  "season4_tails_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/tails_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  343935,
+                      "sha256":  "98e3903a896e0f8e35ab185d15c1c90db215d8b2993f215b366a5a8425bf48d9",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.tails.gold",
+                      "fileName":  "season4_tails_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/tails_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  336346,
+                      "sha256":  "cffc646b697f74a115bbd545413b9bd93adbe01c19bdb1e4c6fbf0ff05fb1b29",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.tails.cheatmaster",
+                      "fileName":  "season4_tails_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/tails_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  364939,
+                      "sha256":  "ca04647dd124c369654bb835c59d440739b14206895a71bd86adfc69ba6d1e4f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.tails.loothacker",
+                      "fileName":  "season4_tails_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/tails_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  299798,
+                      "sha256":  "494db0f715c4679ebee2582694b86305823ba7790591de76ebf6b073e3e19201",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.tails.bountyhunter",
+                      "fileName":  "season4_tails_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/tails_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  299841,
+                      "sha256":  "61c0a4c8b990bfe5aaefccb13cfeb05b4d286cb3f4fbfcab97179e45582af9d5",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jackrabbit.normal",
+                      "fileName":  "season4_jackrabbit_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jackrabbit_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  258592,
+                      "sha256":  "2878f6da1055df8430a7a16b1eef1575f774309caecd213feeedcbb413802ac8",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jackrabbit.gold",
+                      "fileName":  "season4_jackrabbit_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jackrabbit_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  236624,
+                      "sha256":  "ec94f4381f9ec3f0e1c4c2654ff4ff9c150db360b619c201a153870af8116690",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jackrabbit.cheatmaster",
+                      "fileName":  "season4_jackrabbit_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jackrabbit_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  279728,
+                      "sha256":  "335b4e61d3b53586841e995c1ef1276037c37f1d60b8770e2f07cbadf3f829d4",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jackrabbit.loothacker",
+                      "fileName":  "season4_jackrabbit_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jackrabbit_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  217978,
+                      "sha256":  "dcb6634dd9af6934eee77acfc780c0b9726695587c28e12b4af3394d7fe21ac2",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.jackrabbit.bountyhunter",
+                      "fileName":  "season4_jackrabbit_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/jackrabbit_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  295422,
+                      "sha256":  "773c84bc374400b346a558956e94952b6802ec8a596ab207a8f6353f477d3940",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.killswitch.normal",
+                      "fileName":  "season4_killswitch_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/killswitch_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  293664,
+                      "sha256":  "5ee8d3d273b3dc337ac46d730023a86bb01619c6bac689d4b60e18e3ecb452b0",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.killswitch.gold",
+                      "fileName":  "season4_killswitch_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/killswitch_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  310887,
+                      "sha256":  "6ba4629e1a78727733e2fbd09f67d7ed3d5fe440f10a6bed1e9f3c6bfc14e1b0",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.killswitch.cheatmaster",
+                      "fileName":  "season4_killswitch_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/killswitch_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  317079,
+                      "sha256":  "9654881b1d492bea8532cbb9cdcae2cccd4c78589e73d5a7c68fad2970b81167",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.killswitch.loothacker",
+                      "fileName":  "season4_killswitch_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/killswitch_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  298098,
+                      "sha256":  "fa61f05e4b653ae6866fc3ed87203b466cae27899ed2920fd6ede318c6d6e240",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.killswitch.bountyhunter",
+                      "fileName":  "season4_killswitch_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/killswitch_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  250379,
+                      "sha256":  "175918ef703e6f5485b95c03de18e2e9d72e1269cc74ae3f5d6f24d2a34c024c",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.eightbit.normal",
+                      "fileName":  "season4_eightbit_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/eightbit_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  365478,
+                      "sha256":  "aa4f5567108c800af8fd370973ed4c07334f809bf4f478d89aaa2bbb6464ff4e",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.eightbit.gold",
+                      "fileName":  "season4_eightbit_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/eightbit_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  360430,
+                      "sha256":  "6dc51a8ead6c3fa6c7f969998cf56ef3567b6b3f873e6d8456cf47087ad5d13b",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.eightbit.cheatmaster",
+                      "fileName":  "season4_eightbit_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/eightbit_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  392913,
+                      "sha256":  "4ffc67eec63d7c0559c6121214a610a82c334136b87853a442baf0c026b4302f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.eightbit.loothacker",
+                      "fileName":  "season4_eightbit_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/eightbit_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  319641,
+                      "sha256":  "85ebaa071e7077c21011fac4fc0f34011cfa6ea22956a6f06eb20533e6b2088b",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.eightbit.bountyhunter",
+                      "fileName":  "season4_eightbit_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/eightbit_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  382281,
+                      "sha256":  "1c1d13d4a5118f8e5e9c4922dc15055e42997a2b0dbe028e8f0b2a616ba99fb5",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.sonic.normal",
+                      "fileName":  "season4_sonic_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/sonic_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  322495,
+                      "sha256":  "27d0175f2d53ce8e212bf4dd38fb1367f0c0832e8fefff22c2cc1549ffdbddac",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.sonic.gold",
+                      "fileName":  "season4_sonic_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/sonic_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  302185,
+                      "sha256":  "59cae0da6764148bbfa58b829923f9114f8ebaaf5b872cee48b3691b4de11e3f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.sonic.cheatmaster",
+                      "fileName":  "season4_sonic_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/sonic_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  355896,
+                      "sha256":  "142d09735fcbe3478fb381949d245bd2cfa3a981e2c11405feb02f5fa8484b3e",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.sonic.loothacker",
+                      "fileName":  "season4_sonic_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/sonic_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  269043,
+                      "sha256":  "8b4e689a6575b768af92498cfd6a1ffdd3ede2fb1d420636166165ed09684ab5",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.sonic.bountyhunter",
+                      "fileName":  "season4_sonic_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/sonic_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  314706,
+                      "sha256":  "47f9c5ce02b02dda9bb54796b3f18ed0e5fbf87266ffef766f72658cec246db3",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.shadow.normal",
+                      "fileName":  "season4_shadow_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/shadow_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  316656,
+                      "sha256":  "7bca09951349b6b6047e3dafb6e6a75187ecf8b88c6d2facd5a92cfd4e102599",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.shadow.gold",
+                      "fileName":  "season4_shadow_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/shadow_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  313168,
+                      "sha256":  "77cfb5f6588b711c823c61cb47b4ea0f9fb53a9a8a45fa9571383797847ccc5f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.shadow.cheatmaster",
+                      "fileName":  "season4_shadow_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/shadow_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  337536,
+                      "sha256":  "3c67e4859bff1b08a418fd45c488931b1d76920e43653fd95fdcdcce485ad33a",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.shadow.loothacker",
+                      "fileName":  "season4_shadow_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/shadow_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  272436,
+                      "sha256":  "167f1e1000b74d3c05bf4f27b73f7cacb7a3c1c19aa0cb6fc3e5fb1c282e19e7",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.shadow.bountyhunter",
+                      "fileName":  "season4_shadow_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/shadow_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  307672,
+                      "sha256":  "2299e4df5017a263caa7f21256af5c295c21b7f45b44e8637dabbb108de33a19",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.klombo.normal",
+                      "fileName":  "season4_klombo_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/klombo_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  319852,
+                      "sha256":  "55ba28d2e8d9b3738a613b0eb40236d988d40a42f01474a705c2fde647c647f3",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.klombo.gold",
+                      "fileName":  "season4_klombo_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/klombo_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  273640,
+                      "sha256":  "c546f6ba2afb7470dc6c9fe373296aac95a9c248128288c0993283976afef7ba",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.klombo.cheatmaster",
+                      "fileName":  "season4_klombo_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/klombo_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  312777,
+                      "sha256":  "3910068a75241aea4155d3f73589bc0aaeb3d21670d61fbe32fb69d8488eeea4",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.klombo.loothacker",
+                      "fileName":  "season4_klombo_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/klombo_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  296982,
+                      "sha256":  "d1416aa790e09dcba8fa5c7e4248a31f7a300befa7cc05798543d847c4b54197",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.klombo.bountyhunter",
+                      "fileName":  "season4_klombo_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/klombo_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  242921,
+                      "sha256":  "89a8f90269e7941424a9951da28a56133231585dc33dc6588b43c6feb2fadcf0",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.stormscout.normal",
+                      "fileName":  "season4_stormscout_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/stormscout_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  324249,
+                      "sha256":  "b6e9d328e4433f1ac4dc24933270f8bb0b8c8c1af101f58df49f789384980cc0",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.stormscout.gold",
+                      "fileName":  "season4_stormscout_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/stormscout_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  327070,
+                      "sha256":  "c4ebdd7fe4065f116db6b270b67cfb96d48e821254a25a3fe573fdb160e47ca4",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.stormscout.cheatmaster",
+                      "fileName":  "season4_stormscout_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/stormscout_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  332088,
+                      "sha256":  "4c707ee1df88b8e9b936bf1e3b42b4bc94245f33097ac35fd9900737ce48aa60",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.stormscout.loothacker",
+                      "fileName":  "season4_stormscout_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/stormscout_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  1879178,
+                      "sha256":  "ffdb49cc6dd3f0f8b24e1b0e081908511fb27abd599cfb6a1389bd676d834912",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.stormscout.bountyhunter",
+                      "fileName":  "season4_stormscout_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/stormscout_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  245803,
+                      "sha256":  "6ee3cac2df1b303877bba6c93091f98ee2b5877ac540e7989afa3400b0a562d6",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crown.normal",
+                      "fileName":  "season4_crown_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crown_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  268949,
+                      "sha256":  "c2ac1e5f9d79d2bc3778fc0bbab367da4785109af63dcd898d66b1a5f73d883d",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crown.gold",
+                      "fileName":  "season4_crown_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crown_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  252739,
+                      "sha256":  "a3121c32c6f0fdb1d73424284548e9e111b76532c55869aa7b78d90891b84f53",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crown.cheatmaster",
+                      "fileName":  "season4_crown_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crown_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  291554,
+                      "sha256":  "a5930b54c2694d116025eb74c23aaf9268dc607768136c98d137b78e1191cc8f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crown.loothacker",
+                      "fileName":  "season4_crown_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crown_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  248048,
+                      "sha256":  "dc01b34a91614843d4698eeb7aad867dda0d9b2220489f9bf6274dd10c6dea07",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crown.bountyhunter",
+                      "fileName":  "season4_crown_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crown_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  213841,
+                      "sha256":  "cf323f5d6fa8e463db4f9dafe62a72fa2646e34f7f7a56e4476f9d19b3fb2d68",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.onigiri.normal",
+                      "fileName":  "season4_onigiri_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/onigiri_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  186425,
+                      "sha256":  "d3736916d20d36d7e5fc458cf0c888a86f3fe24c3b1855bbb3a6952cf157fae3",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.onigiri.gold",
+                      "fileName":  "season4_onigiri_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/onigiri_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  217568,
+                      "sha256":  "38030a50f51c87a2cb70bb945c2e053e09980f3eb29400ea5e4c5326a1acc7c8",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.onigiri.cheatmaster",
+                      "fileName":  "season4_onigiri_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/onigiri_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  227586,
+                      "sha256":  "8645db3831612ddad3c901a397c8aedb306f108cc061362f719079ec6031ea99",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.onigiri.loothacker",
+                      "fileName":  "season4_onigiri_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/onigiri_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  282117,
+                      "sha256":  "c6b0a602acad9265edeb6e36dbfaec60df1544b866d51de56042a8030d9e0186",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.onigiri.bountyhunter",
+                      "fileName":  "season4_onigiri_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/onigiri_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  349011,
+                      "sha256":  "e51de16d2509866beb53c8fd8b26faef84cdc1fdd8a1ea17e793cd563c33f73a",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.xray.normal",
+                      "fileName":  "season4_xray_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/xray_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  233429,
+                      "sha256":  "714dcb55016d33ebce1fafd6511f9915462907ec06c8600fa0231071a8c28570",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.xray.gold",
+                      "fileName":  "season4_xray_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/xray_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  245637,
+                      "sha256":  "10f27aaf7b4f72bcd35a2f76cdc5c2567cb74a28ca5b32b20e21f0b24c03a4e2",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.xray.cheatmaster",
+                      "fileName":  "season4_xray_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/xray_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  248325,
+                      "sha256":  "a03f580fec29057213159f35c2424bb0ab5f6cac57e67ca9fbca42b7e34249de",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.xray.loothacker",
+                      "fileName":  "season4_xray_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/xray_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  285493,
+                      "sha256":  "dafdc5409dcad201b39249fd3a396b56bd7b9b684c09ddc568eddb474edcfefe",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.xray.bountyhunter",
+                      "fileName":  "season4_xray_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/xray_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  279377,
+                      "sha256":  "55fe41458e54770cbe421ab255f7a11096f0947e11e8e5173498426f0f7176ab",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.megaman.normal",
+                      "fileName":  "season4_megaman_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/megaman_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  223223,
+                      "sha256":  "8f0ab52103d7361f039fe1c06f2b9e04ef90ed93591ab3c3061637fc6e25dac4",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.overshield.normal",
+                      "fileName":  "season4_overshield_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/overshield_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  284586,
+                      "sha256":  "af6bead722bccf0dd42b2c57471a7ae4e83c1a7df706217ff76e1e74dc8e4713",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.overshield.gold",
+                      "fileName":  "season4_overshield_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/overshield_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  264271,
+                      "sha256":  "8df5328cc42721cc07733f03e5b781b97080cf454d6d9463c79a510df56e4ae4",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.overshield.cheatmaster",
+                      "fileName":  "season4_overshield_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/overshield_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  304348,
+                      "sha256":  "4d987b46c4181c9ea0942c95ad29e9870249544a7f6f9c7898694b53bda6ecb2",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.overshield.loothacker",
+                      "fileName":  "season4_overshield_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/overshield_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  275158,
+                      "sha256":  "8815ff89b68f1349547c9560ac7d5d2889c1556d9a553235b4ad550524ca0bd1",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.overshield.bountyhunter",
+                      "fileName":  "season4_overshield_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/overshield_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  322302,
+                      "sha256":  "b260a8352213ee8acff77fd87c3e4907181635928fd0c821b9c28d1100af6591",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.dumpsterdive.normal",
+                      "fileName":  "season4_dumpsterdive_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/dumpsterdive_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  535635,
+                      "sha256":  "fe17eb8a79a0eab6ce9e769b027a5b4a03fa954276054bb77d0a4c0dde03f070",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.honey.normal",
+                      "fileName":  "season4_honey_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/honey_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  499588,
+                      "sha256":  "f5efec227f2eea8f0b5f29ebdd8141505f9a99f2c250c15b1cf48b8b51425163",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.pond.normal",
+                      "fileName":  "season4_pond_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/pond_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  226826,
+                      "sha256":  "d11bedead10521248008aedc4b957fcf4580b68ae48b762ea102db53c78d829e",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.pond.gold",
+                      "fileName":  "season4_pond_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/pond_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  257397,
+                      "sha256":  "23f0b296d4d0912ac9406effee4027b94b87962315a2199d9f55b84d12e22d1f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.pond.cheatmaster",
+                      "fileName":  "season4_pond_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/pond_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  274485,
+                      "sha256":  "e62fdd70eddff7e673dadfeeb483c974a9e967946fbcc42d3e9bcaf54d54faa4",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.pond.loothacker",
+                      "fileName":  "season4_pond_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/pond_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  228183,
+                      "sha256":  "47ece2569f96bf578c9ceebcc1f9edbdf8e54081b1372e763b5c85b04449354f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.pond.bountyhunter",
+                      "fileName":  "season4_pond_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/pond_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  316212,
+                      "sha256":  "5485b08ee217db3255f3b6d3e7b8edd04f2d364b277faed3a04d531f2f5c5582",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crash.normal",
+                      "fileName":  "season4_crash_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crash_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  209381,
+                      "sha256":  "35950b6e158efeb741dedbec7120218ddcebbb5659e661e4d5ea64995a1237fd",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crash.gold",
+                      "fileName":  "season4_crash_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crash_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  226020,
+                      "sha256":  "02c56d33d5b104bfc4da3df98b4733e4d40fc1fb0abdfc8cea5c200ae96f9802",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crash.loothacker",
+                      "fileName":  "season4_crash_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crash_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  236092,
+                      "sha256":  "1aef727e47ab907e869fdb2635a343b24a5b95b13ff7ec43ead7c6f543b8d169",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crash.bountyhunter",
+                      "fileName":  "season4_crash_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crash_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  238587,
+                      "sha256":  "96ef9e724d3551ce101c3b3e80c79e0e141fb28a87d4cbf07043b45e3e1f876a",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.crash.cheatmaster",
+                      "fileName":  "season4_crash_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/crash_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  209301,
+                      "sha256":  "bc4d808b129fcd9ea29799a080fb631363c84448ccde0f013403738d8814a71e",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.blinky.normal",
+                      "fileName":  "season4_blinky_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/blinky_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  129125,
+                      "sha256":  "38152cdcc41082be9ca5430dec789db2d4226e97ad818553901d9359a5c2f739",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.blinky.gold",
+                      "fileName":  "season4_blinky_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/blinky_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  144847,
+                      "sha256":  "baeb8cade716bfc68a8cb85622779bdf4bce298ea5f8068035e5cb17be777c64",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.blinky.cheatmaster",
+                      "fileName":  "season4_blinky_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/blinky_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  317783,
+                      "sha256":  "bb7194591f75ceb55d74eb5c8d0b619fd1cd615066ef6345545606cdd305fbfe",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.blinky.loothacker",
+                      "fileName":  "season4_blinky_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/blinky_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  281200,
+                      "sha256":  "de48e34f5927ea08d4e1e608101cce5b56378ccecd954df1941d0441a9851a01",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.blinky.bountyhunter",
+                      "fileName":  "season4_blinky_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/blinky_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  217176,
+                      "sha256":  "6f1f0bd78686ea78655be2b19a3589772bcdd17d93303ff24e45e16db100ee63",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.morgana.normal",
+                      "fileName":  "season4_morgana_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/morgana_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  164534,
+                      "sha256":  "6806b16095079da8331ed88cc8d4edb4ec23cc71d3e84697582eb9c9313c9f1f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.morgana.gold",
+                      "fileName":  "season4_morgana_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/morgana_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  189848,
+                      "sha256":  "64ed7bfcd545e38b3eb605ad0643494e8ac2472dbc2ea56f01255f203983cf2f",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.morgana.cheatmaster",
+                      "fileName":  "season4_morgana_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/morgana_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  271120,
+                      "sha256":  "2a991b0d4b1fb631a81945f98f4c706ac7276c68661504dbcbe41e839335260a",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.morgana.loothacker",
+                      "fileName":  "season4_morgana_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/morgana_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  249258,
+                      "sha256":  "f8c681967adac8b1ec0e87c84c61d2c6f6317987bb381a58e78048e492f678d3",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.morgana.bountyhunter",
+                      "fileName":  "season4_morgana_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/morgana_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  208909,
+                      "sha256":  "16c630b5ce7ac1251fbda60f288cb1d20f325b4b256e66168a66a52407f5f677",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.birthday.normal",
+                      "fileName":  "season4_birthday_basic.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/birthday_basic.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  218083,
+                      "sha256":  "0fbed9c9e8a5afde567ab0ced58f2acdb6995f2d403b503d089e03c1620f9015",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.birthday.gold",
+                      "fileName":  "season4_birthday_gold.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/birthday_gold.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  272080,
+                      "sha256":  "bb9818c5486e8cef0d6feb38744253957913d748269a5d6137cc9096997df505",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.birthday.cheatmaster",
+                      "fileName":  "season4_birthday_cheatmaster.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/birthday_cheatmaster.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  319115,
+                      "sha256":  "d88835e20449794c1347d4e178dc24e69fa17775c00006fff58a1ce0c6b4c1aa",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.birthday.loothacker",
+                      "fileName":  "season4_birthday_loothacker.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/birthday_loothacker.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  273904,
+                      "sha256":  "4f97857ec982c1f7876c228e45552754b9582a1c1ad8407a8886af4f126b9a26",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
+                  },
+                  {
+                      "variantId":  "s4.birthday.bountyhunter",
+                      "fileName":  "season4_birthday_bountyhunter.png",
+                      "sourceUrl":  "https://fnsprites.info/spriteimg/birthday_bountyhunter.png",
+                      "status":  "downloaded",
+                      "http":  "200 image/png",
+                      "bytes":  298929,
+                      "sha256":  "0eebe2a96f481676814c293bf4b4368fd8d4137429c2847c9921dbc9b0caf267",
+                      "rightsBasis":  "Personal, non-public prototype use authorized by owner on 2026-09-30; no public license located."
                   }
               ]
 }

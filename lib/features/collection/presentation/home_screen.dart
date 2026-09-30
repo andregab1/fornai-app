@@ -23,186 +23,688 @@ class HomeScreen extends ConsumerWidget {
       }
     });
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: AppColors.background,
-        title: const Text(
-          'FORNAI',
-          style: TextStyle(fontWeight: FontWeight.w900, letterSpacing: 2),
+      body: SafeArea(
+        child: LayoutBuilder(
+          builder: (context, constraints) {
+            final columns = constraints.maxWidth >= 1180
+                ? 4
+                : constraints.maxWidth >= 760
+                ? 3
+                : 2;
+            return CustomScrollView(
+              slivers: [
+                SliverAppBar(
+                  pinned: true,
+                  toolbarHeight: 76,
+                  backgroundColor: AppColors.background.withValues(alpha: .96),
+                  surfaceTintColor: Colors.transparent,
+                  titleSpacing: 20,
+                  title: const _BrandLockup(),
+                  actions: [
+                    IconButton(
+                      tooltip: 'Backup e restaura\u00e7\u00e3o',
+                      onPressed: () => _backupSheet(context, actions),
+                      icon: const Icon(Icons.cloud_upload_outlined),
+                    ),
+                    IconButton(
+                      tooltip: 'Redefinir cole\u00e7\u00e3o',
+                      onPressed: () => _reset(context, actions),
+                      icon: const Icon(Icons.refresh_rounded),
+                    ),
+                    const SizedBox(width: 10),
+                  ],
+                ),
+                SliverToBoxAdapter(child: _HeroOverview(state: state)),
+                SliverToBoxAdapter(
+                  child: _CollectionToolbar(state: state, actions: actions),
+                ),
+                if (state.visibleElementals.isEmpty)
+                  const SliverFillRemaining(
+                    hasScrollBody: false,
+                    child: _EmptyState(),
+                  )
+                else
+                  SliverPadding(
+                    padding: const EdgeInsets.fromLTRB(20, 8, 20, 40),
+                    sliver: SliverGrid(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: columns,
+                        mainAxisExtent: 364,
+                        crossAxisSpacing: 16,
+                        mainAxisSpacing: 16,
+                      ),
+                      delegate: SliverChildBuilderDelegate(
+                        (context, index) => _ElementalCard(
+                          elemental: state.visibleElementals[index],
+                          state: state,
+                          actions: actions,
+                        ),
+                        childCount: state.visibleElementals.length,
+                      ),
+                    ),
+                  ),
+              ],
+            );
+          },
         ),
-        actions: [
-          IconButton(
-            tooltip: 'Backup e restauração',
-            onPressed: () => _backupSheet(context, actions),
-            icon: const Icon(Icons.cloud_download_outlined),
+      ),
+    );
+  }
+}
+
+class _BrandLockup extends StatelessWidget {
+  const _BrandLockup();
+  @override
+  Widget build(BuildContext context) => Row(
+    mainAxisSize: MainAxisSize.min,
+    children: [
+      Container(
+        width: 38,
+        height: 38,
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(
+            colors: [AppColors.cyan, AppColors.amber],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
           ),
-          IconButton(
-            tooltip: 'Redefinir coleção',
-            onPressed: () => _reset(context, actions),
-            icon: const Icon(Icons.restart_alt),
+          borderRadius: BorderRadius.circular(12),
+          boxShadow: const [
+            BoxShadow(color: Color(0x3345D6D0), blurRadius: 18),
+          ],
+        ),
+        child: const Icon(Icons.favorite_rounded, color: AppColors.background),
+      ),
+      const SizedBox(width: 12),
+      const Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'FORNAI',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w900,
+              letterSpacing: 2.2,
+            ),
+          ),
+          Text(
+            'ELEMENTAL LOG',
+            style: TextStyle(
+              color: AppColors.muted,
+              fontSize: 9,
+              fontWeight: FontWeight.w800,
+              letterSpacing: 1.8,
+            ),
           ),
         ],
-      ),
-      body: SafeArea(
-        child: CustomScrollView(
-          slivers: [
-            SliverPadding(
-              padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
-              sliver: SliverToBoxAdapter(child: ProgressHeader(state: state)),
-            ),
-            SliverPadding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              sliver: SliverToBoxAdapter(
-                child: SearchFilters(state: state, actions: actions),
-              ),
-            ),
-            if (state.visibleElementals.isEmpty)
-              const SliverFillRemaining(
-                hasScrollBody: false,
-                child: EmptyState(),
-              )
-            else
-              SliverPadding(
-                padding: const EdgeInsets.fromLTRB(16, 16, 16, 32),
-                sliver: SliverGrid(
-                  gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                    maxCrossAxisExtent: 440,
-                    mainAxisExtent: 330,
-                    crossAxisSpacing: 14,
-                    mainAxisSpacing: 14,
-                  ),
-                  delegate: SliverChildBuilderDelegate(
-                    (context, index) => ElementalCard(
-                      elemental: state.visibleElementals[index],
-                      state: state,
-                      actions: actions,
-                    ),
-                    childCount: state.visibleElementals.length,
-                  ),
-                ),
-              ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class ProgressHeader extends StatelessWidget {
-  const ProgressHeader({super.key, required this.state});
-  final CollectionState state;
-  @override
-  Widget build(BuildContext context) {
-    final percent = (state.completion * 100).round();
-    return Semantics(
-      label:
-          'Progresso geral: ${state.collectedCount} de ${state.totalCount} variantes, $percent por cento',
-      child: Container(
-        padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-          color: AppColors.surface,
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color(0xFF244057)),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text(
-              'SUA COLEÇÃO',
-              style: TextStyle(
-                color: AppColors.cyan,
-                fontWeight: FontWeight.w800,
-                letterSpacing: 1.4,
-              ),
-            ),
-            const SizedBox(height: 8),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Expanded(
-                  child: Text(
-                    '${state.collectedCount} de ${state.totalCount} variantes',
-                    style: Theme.of(context).textTheme.headlineMedium,
-                  ),
-                ),
-                Text(
-                  '$percent%',
-                  style: const TextStyle(
-                    color: AppColors.amber,
-                    fontSize: 24,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 14),
-            ClipRRect(
-              borderRadius: BorderRadius.circular(8),
-              child: LinearProgressIndicator(
-                value: state.completion,
-                minHeight: 10,
-                backgroundColor: const Color(0xFF25384A),
-                color: AppColors.cyan,
-              ),
-            ),
-            const SizedBox(height: 10),
-            Text(
-              'Catálogo ${state.catalog.catalogVersion} • salvo neste aparelho',
-              style: const TextStyle(color: AppColors.muted, fontSize: 12),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class SearchFilters extends StatelessWidget {
-  const SearchFilters({super.key, required this.state, required this.actions});
-  final CollectionState state;
-  final CollectionController actions;
-  static const labels = {
-    CollectionFilter.all: 'Todos',
-    CollectionFilter.complete: 'Completos',
-    CollectionFilter.incomplete: 'Incompletos',
-    CollectionFilter.notStarted: 'Não iniciados',
-    CollectionFilter.available: 'Disponíveis',
-    CollectionFilter.comingSoon: 'Em breve',
-  };
-  @override
-  Widget build(BuildContext context) => Column(
-    children: [
-      TextField(
-        onChanged: actions.setQuery,
-        decoration: const InputDecoration(
-          labelText: 'Buscar Elemental',
-          hintText: 'Ex.: Água, Batman...',
-          prefixIcon: Icon(Icons.search),
-        ),
-      ),
-      const SizedBox(height: 12),
-      SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: Row(
-          children: [
-            for (final filter in CollectionFilter.values)
-              Padding(
-                padding: const EdgeInsets.only(right: 8),
-                child: FilterChip(
-                  label: Text(labels[filter]!),
-                  selected: state.filter == filter,
-                  onSelected: (_) => actions.setFilter(filter),
-                ),
-              ),
-          ],
-        ),
       ),
     ],
   );
 }
 
-class ElementalCard extends StatelessWidget {
-  const ElementalCard({
-    super.key,
+class _HeroOverview extends StatelessWidget {
+  const _HeroOverview({required this.state});
+  final CollectionState state;
+  @override
+  Widget build(BuildContext context) {
+    final percent = (state.completion * 100).round();
+    final remaining = state.totalCount - state.collectedCount;
+    final seasonName = state.season == CollectionSeason.current
+        ? 'Temporada atual'
+        : 'Cole\u00e7\u00e3o antiga';
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 8, 20, 22),
+      child: Container(
+        constraints: const BoxConstraints(minHeight: 248),
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(
+            colors: [Color(0xFF152C42), Color(0xFF0C1828)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(30),
+          border: Border.all(color: const Color(0x3345D6D0)),
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x26000000),
+              blurRadius: 28,
+              offset: Offset(0, 16),
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              right: -44,
+              top: -58,
+              child: _GlowOrb(
+                color: AppColors.cyan.withValues(alpha: .14),
+                size: 190,
+              ),
+            ),
+            Positioned(
+              right: 96,
+              bottom: -94,
+              child: _GlowOrb(
+                color: AppColors.amber.withValues(alpha: .12),
+                size: 170,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(24),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            _Eyebrow(
+                              text:
+                                  '$seasonName  /  ${state.catalog.catalogVersion}',
+                            ),
+                            const SizedBox(height: 12),
+                            Text(
+                              'Sua cole\u00e7\u00e3o,\nem movimento.',
+                              style: Theme.of(context).textTheme.displaySmall
+                                  ?.copyWith(
+                                    fontWeight: FontWeight.w900,
+                                    height: .98,
+                                    letterSpacing: -1.5,
+                                  ),
+                            ),
+                            const SizedBox(height: 12),
+                            const Text(
+                              'Marque cada variante com um cora\u00e7\u00e3o e acompanhe o que falta.',
+                              style: TextStyle(
+                                color: AppColors.muted,
+                                height: 1.35,
+                              ),
+                            ),
+                            const SizedBox(height: 14),
+                            Text(
+                              '${state.collectedCount} de ${state.totalCount} variantes',
+                              style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      _ProgressOrb(
+                        percent: percent,
+                        progress: state.completion,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 26),
+                  Row(
+                    children: [
+                      _HeroStat(
+                        value: '${state.collectedCount}',
+                        label: 'coletadas',
+                        color: AppColors.cyan,
+                      ),
+                      const SizedBox(width: 10),
+                      _HeroStat(
+                        value: '$remaining',
+                        label: 'pendentes',
+                        color: AppColors.amber,
+                      ),
+                      const SizedBox(width: 10),
+                      _HeroStat(
+                        value: '${state.seasonElementals.length}',
+                        label: 'elementais',
+                        color: AppColors.amber,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _GlowOrb extends StatelessWidget {
+  const _GlowOrb({required this.color, required this.size});
+  final Color color;
+  final double size;
+  @override
+  Widget build(BuildContext context) => Container(
+    width: size,
+    height: size,
+    decoration: BoxDecoration(shape: BoxShape.circle, color: color),
+  );
+}
+
+class _ProgressOrb extends StatelessWidget {
+  const _ProgressOrb({required this.percent, required this.progress});
+  final int percent;
+  final double progress;
+  @override
+  Widget build(BuildContext context) => SizedBox.square(
+    dimension: 92,
+    child: Stack(
+      alignment: Alignment.center,
+      children: [
+        CircularProgressIndicator(
+          value: progress,
+          strokeWidth: 8,
+          backgroundColor: const Color(0x3345D6D0),
+          color: AppColors.cyan,
+        ),
+        Text(
+          '$percent%',
+          style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
+        ),
+      ],
+    ),
+  );
+}
+
+class _HeroStat extends StatelessWidget {
+  const _HeroStat({
+    required this.value,
+    required this.label,
+    required this.color,
+  });
+  final String value;
+  final String label;
+  final Color color;
+  @override
+  Widget build(BuildContext context) => Expanded(
+    child: Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+      decoration: BoxDecoration(
+        color: const Color(0x33102030),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: const Color(0x223B566D)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            value,
+            style: TextStyle(
+              color: color,
+              fontSize: 20,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+          const SizedBox(height: 2),
+          Text(
+            label.toUpperCase(),
+            style: const TextStyle(
+              color: AppColors.muted,
+              fontSize: 9,
+              fontWeight: FontWeight.w800,
+              letterSpacing: 1,
+            ),
+          ),
+        ],
+      ),
+    ),
+  );
+}
+
+class _CollectionToolbar extends StatelessWidget {
+  const _CollectionToolbar({required this.state, required this.actions});
+  final CollectionState state;
+  final CollectionController actions;
+  @override
+  Widget build(BuildContext context) {
+    final filters = <CollectionFilter>[
+      CollectionFilter.all,
+      CollectionFilter.complete,
+      CollectionFilter.incomplete,
+      CollectionFilter.notStarted,
+      CollectionFilter.available,
+    ];
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 0, 20, 18),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    _Eyebrow(text: 'CAT\u00c1LOGO'),
+                    SizedBox(height: 4),
+                    Text(
+                      'Escolha sua pr\u00f3xima conquista',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w900,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              _SeasonSwitcher(state: state, actions: actions),
+            ],
+          ),
+          const SizedBox(height: 16),
+          TextField(
+            onChanged: actions.setQuery,
+            textInputAction: TextInputAction.search,
+            decoration: const InputDecoration(
+              hintText: 'Buscar por nome...',
+              prefixIcon: Icon(Icons.search_rounded),
+              suffixIcon: Icon(Icons.tune_rounded, size: 20),
+            ),
+          ),
+          const SizedBox(height: 12),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                for (final filter in filters) ...[
+                  ChoiceChip(
+                    label: Text(_filterLabel(filter)),
+                    selected: state.filter == filter,
+                    onSelected: (_) => actions.setFilter(filter),
+                  ),
+                  const SizedBox(width: 8),
+                ],
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _filterLabel(CollectionFilter filter) => switch (filter) {
+    CollectionFilter.all => 'Todos',
+    CollectionFilter.complete => 'Completos',
+    CollectionFilter.incomplete => 'Em andamento',
+    CollectionFilter.notStarted => 'N\u00e3o iniciados',
+    CollectionFilter.available => 'Dispon\u00edveis',
+    CollectionFilter.comingSoon => 'Dispon\u00edveis',
+  };
+}
+
+class _SeasonSwitcher extends StatelessWidget {
+  const _SeasonSwitcher({required this.state, required this.actions});
+  final CollectionState state;
+  final CollectionController actions;
+  @override
+  Widget build(BuildContext context) => OutlinedButton.icon(
+    onPressed: () => actions.setSeason(
+      state.season == CollectionSeason.current
+          ? CollectionSeason.legacy
+          : CollectionSeason.current,
+    ),
+    icon: Icon(
+      state.season == CollectionSeason.current
+          ? Icons.history_rounded
+          : Icons.arrow_back_rounded,
+      size: 18,
+    ),
+    label: Text(
+      state.season == CollectionSeason.current
+          ? 'Cole\u00e7\u00e3o antiga'
+          : 'Temporada atual',
+    ),
+  );
+}
+
+class _Eyebrow extends StatelessWidget {
+  const _Eyebrow({required this.text});
+  final String text;
+  @override
+  Widget build(BuildContext context) => Text(
+    text,
+    style: const TextStyle(
+      color: AppColors.cyan,
+      fontSize: 10,
+      fontWeight: FontWeight.w900,
+      letterSpacing: 1.6,
+    ),
+  );
+}
+
+class _ElementalCard extends StatelessWidget {
+  const _ElementalCard({
+    required this.elemental,
+    required this.state,
+    required this.actions,
+  });
+  final Elemental elemental;
+  final CollectionState state;
+  final CollectionController actions;
+  @override
+  Widget build(BuildContext context) {
+    final collected = state.collectedFor(elemental);
+    final total = elemental.variants.length;
+    final complete = collected == total;
+    return Card(
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: () => _showElementalDetails(context, elemental, state, actions),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SizedBox(
+              height: 132,
+              child: Stack(
+                fit: StackFit.expand,
+                children: [
+                  _ElementalImage(asset: elemental.variants.first.imageAsset),
+                  DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          Colors.transparent,
+                          AppColors.background.withValues(alpha: .88),
+                        ],
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 14,
+                    right: 12,
+                    bottom: 12,
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            elemental.name,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              fontSize: 19,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                        ),
+                        _StatusPill(complete: complete),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          '$collected de $total variantes',
+                          style: const TextStyle(
+                            color: AppColors.muted,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                      Text(
+                        '${(collected / total * 100).round()}%',
+                        style: const TextStyle(
+                          color: AppColors.cyan,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 9),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: LinearProgressIndicator(
+                      value: total == 0 ? 0 : collected / total,
+                      minHeight: 7,
+                      backgroundColor: const Color(0xFF22374A),
+                      color: complete ? AppColors.amber : AppColors.cyan,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  for (final variant in elemental.variants.take(2))
+                    _VariantPreview(
+                      variant: variant,
+                      checked: state.progress[variant.id]?.collected ?? false,
+                      onChanged: (value) => actions.toggle(variant.id, value),
+                    ),
+                  if (elemental.variants.length > 2)
+                    Padding(
+                      padding: const EdgeInsets.only(left: 6, top: 4),
+                      child: Text(
+                        '+ ${elemental.variants.length - 2} outras variantes',
+                        style: const TextStyle(
+                          color: AppColors.muted,
+                          fontSize: 11,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _StatusPill extends StatelessWidget {
+  const _StatusPill({required this.complete});
+  final bool complete;
+  @override
+  Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
+    decoration: BoxDecoration(
+      color: (complete ? AppColors.amber : AppColors.cyan).withValues(
+        alpha: .16,
+      ),
+      borderRadius: BorderRadius.circular(99),
+    ),
+    child: Icon(
+      complete ? Icons.check_rounded : Icons.auto_awesome_rounded,
+      color: complete ? AppColors.amber : AppColors.cyan,
+      size: 15,
+    ),
+  );
+}
+
+class _VariantPreview extends StatelessWidget {
+  const _VariantPreview({
+    required this.variant,
+    required this.checked,
+    required this.onChanged,
+  });
+  final ElementalVariant variant;
+  final bool checked;
+  final ValueChanged<bool> onChanged;
+  @override
+  Widget build(BuildContext context) => InkWell(
+    onTap: () => onChanged(!checked),
+    borderRadius: BorderRadius.circular(12),
+    child: Padding(
+      padding: const EdgeInsets.symmetric(vertical: 2),
+      child: Row(
+        children: [
+          HeartChecklist(
+            value: checked,
+            semanticLabel:
+                '${variant.name}: ${checked ? "marcada" : "n\u00e3o marcada"}',
+            onChanged: onChanged,
+            color: const Color(0xFFFF5B89),
+          ),
+          Expanded(
+            child: Text(
+              variant.name,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                color: checked ? AppColors.text : AppColors.muted,
+                fontWeight: FontWeight.w700,
+                decoration: checked ? TextDecoration.lineThrough : null,
+              ),
+            ),
+          ),
+          Icon(
+            checked ? Icons.check_circle_rounded : Icons.circle_outlined,
+            color: checked ? AppColors.cyan : AppColors.muted,
+            size: 17,
+          ),
+        ],
+      ),
+    ),
+  );
+}
+
+class _ElementalImage extends StatelessWidget {
+  const _ElementalImage({required this.asset});
+  final String asset;
+  @override
+  Widget build(BuildContext context) => Image.asset(
+    asset,
+    fit: BoxFit.cover,
+    errorBuilder: (_, _, _) => Container(
+      color: const Color(0xFF1A3044),
+      child: const Center(
+        child: Icon(
+          Icons.auto_awesome_rounded,
+          color: AppColors.cyan,
+          size: 34,
+        ),
+      ),
+    ),
+  );
+}
+
+Future<void> _showElementalDetails(
+  BuildContext context,
+  Elemental elemental,
+  CollectionState state,
+  CollectionController actions,
+) => showModalBottomSheet<void>(
+  context: context,
+  isScrollControlled: true,
+  useSafeArea: true,
+  backgroundColor: Colors.transparent,
+  builder: (context) =>
+      _ElementalSheet(elemental: elemental, state: state, actions: actions),
+);
+
+class _ElementalSheet extends StatelessWidget {
+  const _ElementalSheet({
     required this.elemental,
     required this.state,
     required this.actions,
@@ -213,249 +715,40 @@ class ElementalCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final count = state.collectedFor(elemental);
-    final soon = elemental.availability == Availability.comingSoon;
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        onTap: () => showDetails(context, elemental, state),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  ElementalPlaceholder(
-                    id: elemental.id,
-                    imageAsset: elemental.variants.first.imageAsset,
-                    size: 58,
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          elemental.name,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context).textTheme.titleLarge,
-                        ),
-                        Text(
-                          '$count de ${elemental.variants.length} coletadas',
-                          style: const TextStyle(color: AppColors.muted),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Tooltip(
-                    message:
-                        elemental.validationStatus == ValidationStatus.confirmed
-                        ? 'Confirmado'
-                        : 'Validação pendente',
-                    child: Icon(
-                      elemental.validationStatus == ValidationStatus.confirmed
-                          ? Icons.verified_outlined
-                          : Icons.warning_amber_rounded,
-                      color:
-                          elemental.validationStatus ==
-                              ValidationStatus.confirmed
-                          ? AppColors.cyan
-                          : AppColors.amber,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 12),
-              if (soon)
-                const Expanded(
-                  child: Center(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(Icons.schedule, size: 40, color: AppColors.amber),
-                        SizedBox(height: 8),
-                        Text(
-                          'EM BREVE',
-                          style: TextStyle(
-                            color: AppColors.amber,
-                            fontWeight: FontWeight.w900,
-                          ),
-                        ),
-                        Text(
-                          'Disponibilidade não confirmada.',
-                          style: TextStyle(color: AppColors.muted),
-                        ),
-                      ],
-                    ),
-                  ),
-                )
-              else
-                Expanded(
-                  child: ListView.builder(
-                    primary: false,
-                    padding: EdgeInsets.zero,
-                    itemCount: elemental.variants.length,
-                    itemBuilder: (context, index) {
-                      final variant = elemental.variants[index];
-                      final checked =
-                          state.progress[variant.id]?.collected ?? false;
-                      return SizedBox(
-                        height: 52,
-                        child: InkWell(
-                          onTap: () => actions.toggle(variant.id, !checked),
-                          borderRadius: BorderRadius.circular(8),
-                          child: Row(
-                            children: [
-                              HeartChecklist(
-                                value: checked,
-                                semanticLabel:
-                                    '${variant.name} de ${elemental.name}',
-                                onChanged: (value) =>
-                                    actions.toggle(variant.id, value),
-                              ),
-                              const SizedBox(width: 8),
-                              Expanded(
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(variant.name),
-                                    if (variant.validationStatus ==
-                                        ValidationStatus.unconfirmed)
-                                      const Text(
-                                        'Confirmação pendente',
-                                        style: TextStyle(
-                                          fontSize: 11,
-                                          color: AppColors.amber,
-                                        ),
-                                      ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-              const SizedBox(height: 8),
-              Row(
-                children: [
-                  Expanded(
-                    child: OutlinedButton.icon(
-                      onPressed: soon
-                          ? null
-                          : () => actions.setElemental(elemental, true),
-                      icon: const Icon(Icons.done_all),
-                      label: const Text('Marcar todas'),
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  IconButton(
-                    tooltip: 'Desmarcar todas',
-                    onPressed: soon
-                        ? null
-                        : () => actions.setElemental(elemental, false),
-                    icon: const Icon(Icons.remove_done),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
+    final complete = count == elemental.variants.length;
+    return Container(
+      constraints: const BoxConstraints(maxHeight: 720),
+      decoration: const BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
       ),
-    );
-  }
-}
-
-class ElementalPlaceholder extends StatelessWidget {
-  const ElementalPlaceholder({
-    super.key,
-    required this.id,
-    required this.imageAsset,
-    required this.size,
-  });
-  final String id;
-  final String imageAsset;
-  final double size;
-  @override
-  Widget build(BuildContext context) {
-    final hue = id.codeUnits.fold<int>(0, (sum, item) => sum + item) % 360;
-    final color = HSVColor.fromAHSV(1, hue.toDouble(), .48, .78).toColor();
-    return Semantics(
-      label: 'Imagem provisória',
-      image: true,
-      child: Container(
-        width: size,
-        height: size,
-        decoration: BoxDecoration(
-          color: color.withValues(alpha: .22),
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: color),
-        ),
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(13),
-          child: Image.asset(
-            imageAsset,
-            fit: BoxFit.contain,
-            errorBuilder: (_, _, _) =>
-                Icon(Icons.auto_awesome, color: color, size: size * .48),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class EmptyState extends StatelessWidget {
-  const EmptyState({super.key});
-  @override
-  Widget build(BuildContext context) => const Center(
-    child: Padding(
-      padding: EdgeInsets.all(32),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(Icons.search_off, size: 48, color: AppColors.muted),
-          SizedBox(height: 12),
-          Text(
-            'Nenhum Elemental encontrado',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
-          ),
-          Text('Ajuste a busca ou escolha outro filtro.'),
-        ],
-      ),
-    ),
-  );
-}
-
-Future<void> showDetails(
-  BuildContext context,
-  Elemental elemental,
-  CollectionState state,
-) => showModalBottomSheet<void>(
-  context: context,
-  isScrollControlled: true,
-  showDragHandle: true,
-  builder: (context) => SafeArea(
-    child: Padding(
-      padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
-      child: ConstrainedBox(
-        constraints: BoxConstraints(
-          maxHeight: MediaQuery.sizeOf(context).height * .78,
-        ),
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
         child: Column(
-          mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Center(
+              child: Container(
+                width: 42,
+                height: 5,
+                decoration: BoxDecoration(
+                  color: AppColors.muted.withValues(alpha: .35),
+                  borderRadius: BorderRadius.circular(99),
+                ),
+              ),
+            ),
+            const SizedBox(height: 18),
             Row(
               children: [
-                ElementalPlaceholder(
-                  id: elemental.id,
-                  imageAsset: elemental.variants.first.imageAsset,
-                  size: 64,
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(18),
+                  child: SizedBox(
+                    width: 82,
+                    height: 82,
+                    child: _ElementalImage(
+                      asset: elemental.variants.first.imageAsset,
+                    ),
+                  ),
                 ),
                 const SizedBox(width: 14),
                 Expanded(
@@ -464,61 +757,132 @@ Future<void> showDetails(
                     children: [
                       Text(
                         elemental.name,
-                        style: Theme.of(context).textTheme.headlineSmall
-                            ?.copyWith(fontWeight: FontWeight.w800),
+                        style: const TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.w900,
+                        ),
                       ),
-                      Text(elemental.season),
+                      const SizedBox(height: 4),
+                      Text(
+                        '$count de ${elemental.variants.length} variantes marcadas',
+                        style: const TextStyle(color: AppColors.muted),
+                      ),
                     ],
+                  ),
+                ),
+                Icon(
+                  complete
+                      ? Icons.verified_rounded
+                      : Icons.auto_awesome_rounded,
+                  color: complete ? AppColors.amber : AppColors.cyan,
+                ),
+              ],
+            ),
+            const SizedBox(height: 22),
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton.icon(
+                    onPressed: complete
+                        ? null
+                        : () => actions.setElemental(elemental, true),
+                    icon: const Icon(Icons.done_all_rounded, size: 18),
+                    label: const Text('Marcar todas'),
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: TextButton.icon(
+                    onPressed: count == 0
+                        ? null
+                        : () => actions.setElemental(elemental, false),
+                    icon: const Icon(Icons.remove_done_rounded, size: 18),
+                    label: const Text('Limpar'),
                   ),
                 ),
               ],
             ),
-            const SizedBox(height: 18),
-            const Text(
-              'Variantes',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
-            ),
-            Flexible(
-              child: ListView(
-                children: [
-                  for (final variant in elemental.variants)
-                    ListTile(
-                      contentPadding: EdgeInsets.zero,
-                      leading: HeartChecklist(
-                        value: state.progress[variant.id]?.collected ?? false,
-                        semanticLabel: '${variant.name} de ${elemental.name}',
-                      ),
-                      title: Text(variant.name),
-                      subtitle: Text(
-                        variant.validationStatus == ValidationStatus.confirmed
-                            ? 'Confirmada'
-                            : 'Validação pendente',
-                      ),
-                      trailing: variant.availability == Availability.comingSoon
-                          ? const Text(
-                              'Em breve',
-                              style: TextStyle(color: AppColors.amber),
-                            )
-                          : null,
+            const SizedBox(height: 16),
+            const _Eyebrow(text: 'VARIANTES'),
+            const SizedBox(height: 8),
+            for (final variant in elemental.variants)
+              Container(
+                margin: const EdgeInsets.only(bottom: 8),
+                decoration: BoxDecoration(
+                  color: AppColors.surfaceHigh,
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Row(
+                  children: [
+                    HeartChecklist(
+                      value: state.progress[variant.id]?.collected ?? false,
+                      semanticLabel: variant.name,
+                      onChanged: (value) => actions.toggle(variant.id, value),
+                      color: const Color(0xFFFF5B89),
                     ),
-                ],
+                    Expanded(
+                      child: Text(
+                        variant.name,
+                        style: const TextStyle(fontWeight: FontWeight.w800),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(right: 14),
+                      child: Text(
+                        variant.type.toUpperCase(),
+                        style: const TextStyle(
+                          color: AppColors.muted,
+                          fontSize: 10,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: 1,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
           ],
         ),
       ),
+    );
+  }
+}
+
+class _EmptyState extends StatelessWidget {
+  const _EmptyState();
+  @override
+  Widget build(BuildContext context) => Center(
+    child: Padding(
+      padding: const EdgeInsets.all(32),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Icon(Icons.search_off_rounded, color: AppColors.cyan, size: 44),
+          const SizedBox(height: 16),
+          const Text(
+            'Nada encontrado',
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900),
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            'Tente outro nome ou remova alguns filtros.',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: AppColors.muted),
+          ),
+        ],
+      ),
     ),
-  ),
-);
+  );
+}
 
 Future<void> _reset(BuildContext context, CollectionController actions) async {
-  final yes =
+  final confirmed =
       await showDialog<bool>(
         context: context,
         builder: (context) => AlertDialog(
-          title: const Text('Redefinir coleção?'),
+          title: const Text('Recome\u00e7ar a cole\u00e7\u00e3o?'),
           content: const Text(
-            'Todos os checks deste aparelho serão removidos. Exporte um backup antes se quiser recuperá-los.',
+            'Todos os cora\u00e7\u00f5es marcados neste aparelho ser\u00e3o removidos.',
           ),
           actions: [
             TextButton(
@@ -527,18 +891,18 @@ Future<void> _reset(BuildContext context, CollectionController actions) async {
             ),
             FilledButton(
               onPressed: () => Navigator.pop(context, true),
-              child: const Text('Redefinir'),
+              child: const Text('Recome\u00e7ar'),
             ),
           ],
         ),
       ) ??
       false;
-  if (yes) {
+  if (confirmed) {
     await actions.reset();
     if (context.mounted) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text('Coleção redefinida.')));
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Cole\u00e7\u00e3o reiniciada.')),
+      );
     }
   }
 }
@@ -546,47 +910,49 @@ Future<void> _reset(BuildContext context, CollectionController actions) async {
 Future<void> _backupSheet(BuildContext context, CollectionController actions) =>
     showModalBottomSheet<void>(
       context: context,
+      useSafeArea: true,
       showDragHandle: true,
-      builder: (context) => SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Text(
-                'Backup da coleção',
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-              const SizedBox(height: 8),
-              const Text('Contém somente checks e datas; nenhuma imagem.'),
-              const SizedBox(height: 18),
-              FilledButton.icon(
-                onPressed: () async {
-                  await Clipboard.setData(
-                    ClipboardData(text: actions.exportBackup()),
-                  );
-                  if (context.mounted) {
-                    Navigator.pop(context);
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Backup JSON copiado.')),
-                    );
-                  }
-                },
-                icon: const Icon(Icons.copy),
-                label: const Text('Copiar backup JSON'),
-              ),
-              const SizedBox(height: 10),
-              OutlinedButton.icon(
-                onPressed: () {
+      builder: (context) => Padding(
+        padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            const Text(
+              'Backup da cole\u00e7\u00e3o',
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900),
+            ),
+            const SizedBox(height: 8),
+            const Text(
+              'Exporte seus cora\u00e7\u00f5es ou importe um backup anterior.',
+              style: TextStyle(color: AppColors.muted),
+            ),
+            const SizedBox(height: 18),
+            FilledButton.icon(
+              onPressed: () async {
+                await Clipboard.setData(
+                  ClipboardData(text: actions.exportBackup()),
+                );
+                if (context.mounted) {
                   Navigator.pop(context);
-                  _importDialog(context, actions);
-                },
-                icon: const Icon(Icons.restore),
-                label: const Text('Importar e mesclar backup'),
-              ),
-            ],
-          ),
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Backup copiado.')),
+                  );
+                }
+              },
+              icon: const Icon(Icons.copy_rounded),
+              label: const Text('Copiar backup JSON'),
+            ),
+            const SizedBox(height: 10),
+            OutlinedButton.icon(
+              onPressed: () {
+                Navigator.pop(context);
+                _importDialog(context, actions);
+              },
+              icon: const Icon(Icons.restore_rounded),
+              label: const Text('Importar e mesclar backup'),
+            ),
+          ],
         ),
       ),
     );
@@ -624,9 +990,7 @@ Future<void> _importDialog(
               if (dialogContext.mounted) Navigator.pop(dialogContext);
               if (context.mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    content: Text('$count entradas importadas e mescladas.'),
-                  ),
+                  SnackBar(content: Text('$count entradas mescladas.')),
                 );
               }
             } on FormatException catch (error) {
@@ -639,7 +1003,7 @@ Future<void> _importDialog(
               if (dialogContext.mounted) {
                 ScaffoldMessenger.of(dialogContext).showSnackBar(
                   const SnackBar(
-                    content: Text('Backup inválido ou corrompido.'),
+                    content: Text('Backup inv\u00e1lido ou corrompido.'),
                   ),
                 );
               }

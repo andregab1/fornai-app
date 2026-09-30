@@ -48,6 +48,11 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
+# Keep the Android path provider on the pre-JNI implementation until the
+# current AGP toolchain can link the jni plugin's release resources reliably.
+dependency_overrides:
+  path_provider_android: 2.2.23
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

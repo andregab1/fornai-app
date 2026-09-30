@@ -31,6 +31,8 @@ void main() {
   ) async {
     await pumpApp(tester, const Size(390, 844));
     expect(find.text('0 de 3 variantes'), findsOneWidget);
+    await tester.drag(find.byType(CustomScrollView), const Offset(0, -600));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Normal').first);
     await tester.pumpAndSettle();
     expect(find.text('1 de 3 variantes'), findsOneWidget);

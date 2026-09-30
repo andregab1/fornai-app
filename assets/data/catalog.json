@@ -1,12 +1,1043 @@
 {
     "schemaVersion":  1,
-    "catalogVersion":  "2026-08-15.1",
-    "auditedAt":  "2026-08-15T00:00:00-03:00",
+    "catalogVersion":  "2026-09-30.2",
+    "auditedAt":  "2026-09-30T00:00:00-03:00",
     "elementals":  [
                        {
+                           "id":  "s4.bush",
+                           "name":  "Bush",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.bush.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_bush_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.bush.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_bush_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.bush.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_bush_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.bush.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_bush_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.bush.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_bush_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.adventure",
+                           "name":  "Adventure",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.adventure.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_adventure_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.adventure.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_adventure_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.adventure.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_adventure_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.adventure.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_adventure_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.adventure.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_adventure_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.jonesy",
+                           "name":  "Jonesy",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.jonesy.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jonesy_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.jonesy.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jonesy_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.jonesy.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jonesy_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.jonesy.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jonesy_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.jonesy.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jonesy_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.tails",
+                           "name":  "Tails",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.tails.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_tails_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.tails.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_tails_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.tails.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_tails_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.tails.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_tails_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.tails.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_tails_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.jackrabbit",
+                           "name":  "Jackrabbit",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.jackrabbit.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jackrabbit_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.jackrabbit.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jackrabbit_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.jackrabbit.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jackrabbit_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.jackrabbit.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jackrabbit_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.jackrabbit.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_jackrabbit_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.killswitch",
+                           "name":  "Killswitch",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.killswitch.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_killswitch_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.killswitch.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_killswitch_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.killswitch.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_killswitch_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.killswitch.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_killswitch_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.killswitch.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_killswitch_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.eightbit",
+                           "name":  "8-Bit",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.eightbit.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_eightbit_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.eightbit.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_eightbit_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.eightbit.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_eightbit_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.eightbit.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_eightbit_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.eightbit.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_eightbit_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.sonic",
+                           "name":  "Sonic",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.sonic.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_sonic_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.sonic.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_sonic_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.sonic.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_sonic_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.sonic.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_sonic_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.sonic.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_sonic_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.shadow",
+                           "name":  "Shadow",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.shadow.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_shadow_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.shadow.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_shadow_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.shadow.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_shadow_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.shadow.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_shadow_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.shadow.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_shadow_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.klombo",
+                           "name":  "Klombo",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.klombo.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_klombo_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.klombo.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_klombo_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.klombo.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_klombo_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.klombo.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_klombo_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.klombo.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_klombo_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.stormscout",
+                           "name":  "Storm Scout",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.stormscout.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_stormscout_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.stormscout.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_stormscout_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.stormscout.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_stormscout_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.stormscout.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_stormscout_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.stormscout.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_stormscout_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.crown",
+                           "name":  "Crown",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.crown.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crown_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.crown.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crown_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.crown.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crown_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.crown.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crown_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.crown.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crown_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.onigiri",
+                           "name":  "Onigiri",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.onigiri.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_onigiri_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.onigiri.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_onigiri_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.onigiri.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_onigiri_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.onigiri.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_onigiri_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.onigiri.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_onigiri_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.xray",
+                           "name":  "X-Ray",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.xray.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_xray_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.xray.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_xray_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.xray.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_xray_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.xray.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_xray_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.xray.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_xray_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.megaman",
+                           "name":  "Mega Man",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.megaman.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_megaman_basic.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.overshield",
+                           "name":  "Overshield",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.overshield.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_overshield_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.overshield.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_overshield_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.overshield.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_overshield_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.overshield.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_overshield_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.overshield.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_overshield_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.dumpsterdive",
+                           "name":  "Dumpster Dive",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.dumpsterdive.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_dumpsterdive_basic.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.honey",
+                           "name":  "Honey",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.honey.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_honey_basic.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.pond",
+                           "name":  "Pond",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.pond.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_pond_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.pond.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_pond_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.pond.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_pond_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.pond.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_pond_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.pond.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_pond_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.crash",
+                           "name":  "Crash",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.crash.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crash_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.crash.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crash_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.crash.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crash_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.crash.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crash_bountyhunter.png"
+                                            },
+                                            {
+                                                "id":  "s4.crash.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_crash_cheatmaster.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.blinky",
+                           "name":  "Blinky",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.blinky.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_blinky_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.blinky.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_blinky_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.blinky.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_blinky_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.blinky.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_blinky_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.blinky.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_blinky_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.morgana",
+                           "name":  "Morgana",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.morgana.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_morgana_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.morgana.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_morgana_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.morgana.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_morgana_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.morgana.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_morgana_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.morgana.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_morgana_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "s4.birthday",
+                           "name":  "Birthday",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 4 (Override)",
+                           "availability":  "available",
+                           "validationStatus":  "unconfirmed",
+                           "variants":  [
+                                            {
+                                                "id":  "s4.birthday.normal",
+                                                "name":  "Normal",
+                                                "type":  "normal",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_birthday_basic.png"
+                                            },
+                                            {
+                                                "id":  "s4.birthday.gold",
+                                                "name":  "Dourado",
+                                                "type":  "gold",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_birthday_gold.png"
+                                            },
+                                            {
+                                                "id":  "s4.birthday.cheatmaster",
+                                                "name":  "Mestre do cÃƒÂ³digo",
+                                                "type":  "cheatmaster",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_birthday_cheatmaster.png"
+                                            },
+                                            {
+                                                "id":  "s4.birthday.loothacker",
+                                                "name":  "Hacker de saque",
+                                                "type":  "loothacker",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_birthday_loothacker.png"
+                                            },
+                                            {
+                                                "id":  "s4.birthday.bountyhunter",
+                                                "name":  "CaÃƒÂ§ador de recompensas",
+                                                "type":  "bountyhunter",
+                                                "availability":  "available",
+                                                "validationStatus":  "unconfirmed",
+                                                "imageAsset":  "assets/images/elementals/season4_birthday_bountyhunter.png"
+                                            }
+                                        ]
+                       },
+                       {
                            "id":  "water",
-                           "name":  "ÃƒÂgua",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "name":  "ÃƒÆ’Ã‚Âgua",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -36,7 +1067,7 @@
                                             },
                                             {
                                                 "id":  "water.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -71,7 +1102,7 @@
                        {
                            "id":  "earth",
                            "name":  "Terra",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -101,7 +1132,7 @@
                                             },
                                             {
                                                 "id":  "earth.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -136,7 +1167,7 @@
                        {
                            "id":  "fire",
                            "name":  "Fogo",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -166,7 +1197,7 @@
                                             },
                                             {
                                                 "id":  "fire.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -201,7 +1232,7 @@
                        {
                            "id":  "air",
                            "name":  "Ar",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -231,7 +1262,7 @@
                                             },
                                             {
                                                 "id":  "air.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -250,7 +1281,7 @@
                        {
                            "id":  "fishy",
                            "name":  "Peixoto",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -280,7 +1311,7 @@
                                             },
                                             {
                                                 "id":  "fishy.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -299,7 +1330,7 @@
                        {
                            "id":  "duck",
                            "name":  "Pato",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -329,7 +1360,7 @@
                                             },
                                             {
                                                 "id":  "duck.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -348,7 +1379,7 @@
                        {
                            "id":  "ghost",
                            "name":  "Fantasma",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -378,7 +1409,7 @@
                                             },
                                             {
                                                 "id":  "ghost.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -396,8 +1427,8 @@
                        },
                        {
                            "id":  "demon",
-                           "name":  "DemÃƒÂ´nio",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "name":  "DemÃƒÆ’Ã‚Â´nio",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -427,7 +1458,7 @@
                                             },
                                             {
                                                 "id":  "demon.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -446,7 +1477,7 @@
                        {
                            "id":  "king",
                            "name":  "Rei",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -476,7 +1507,7 @@
                                             },
                                             {
                                                 "id":  "king.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -495,7 +1526,7 @@
                        {
                            "id":  "aura",
                            "name":  "Aura",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -525,7 +1556,7 @@
                                             },
                                             {
                                                 "id":  "aura.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -544,7 +1575,7 @@
                        {
                            "id":  "striker",
                            "name":  "Atacante",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -574,7 +1605,7 @@
                                             },
                                             {
                                                 "id":  "striker.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -593,7 +1624,7 @@
                        {
                            "id":  "dream",
                            "name":  "Sonho",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -623,7 +1654,7 @@
                                             },
                                             {
                                                 "id":  "dream.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -642,7 +1673,7 @@
                        {
                            "id":  "punk",
                            "name":  "Punk",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -672,7 +1703,7 @@
                                             },
                                             {
                                                 "id":  "punk.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -691,7 +1722,7 @@
                        {
                            "id":  "boss",
                            "name":  "Chefe",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -721,7 +1752,7 @@
                                             },
                                             {
                                                 "id":  "boss.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -740,7 +1771,7 @@
                        {
                            "id":  "seven",
                            "name":  "Seven",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -770,7 +1801,7 @@
                                             },
                                             {
                                                 "id":  "seven.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -789,7 +1820,7 @@
                        {
                            "id":  "grim-reaper",
                            "name":  "Ceifador",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -819,7 +1850,7 @@
                                             },
                                             {
                                                 "id":  "grim-reaper.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -854,7 +1885,7 @@
                        {
                            "id":  "zero-point",
                            "name":  "Ponto Zero",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -884,7 +1915,7 @@
                                             },
                                             {
                                                 "id":  "zero-point.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -927,7 +1958,7 @@
                        {
                            "id":  "batman",
                            "name":  "Batman",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -957,7 +1988,7 @@
                                             },
                                             {
                                                 "id":  "batman.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -984,15 +2015,15 @@
                        {
                            "id":  "john-wick",
                            "name":  "John Wick",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
-                           "availability":  "comingSoon",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
+                           "availability":  "available",
                            "validationStatus":  "unconfirmed",
                            "variants":  [
                                             {
                                                 "id":  "john-wick.normal",
                                                 "name":  "Normal",
                                                 "type":  "normal",
-                                                "availability":  "comingSoon",
+                                                "availability":  "available",
                                                 "validationStatus":  "unconfirmed",
                                                 "imageAsset":  "assets/images/elementals/john-wick_normal.png"
                                             }
@@ -1001,7 +2032,7 @@
                        {
                            "id":  "burnt-peanut",
                            "name":  "Amendoim Torrado",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "unconfirmed",
                            "variants":  [
@@ -1018,7 +2049,7 @@
                        {
                            "id":  "pollo",
                            "name":  "Pollo",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "unconfirmed",
                            "variants":  [
@@ -1035,7 +2066,7 @@
                        {
                            "id":  "vini-jr",
                            "name":  "Vini Jr.",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "unconfirmed",
                            "variants":  [
@@ -1052,7 +2083,7 @@
                        {
                            "id":  "ironmouse",
                            "name":  "Ironmouse",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "unconfirmed",
                            "variants":  [
@@ -1069,7 +2100,7 @@
                        {
                            "id":  "llama",
                            "name":  "Lootin\u0027 Llama",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -1099,7 +2130,7 @@
                                             },
                                             {
                                                 "id":  "llama.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",
@@ -1118,7 +2149,7 @@
                        {
                            "id":  "peely",
                            "name":  "Peeky Peely",
-                           "season":  "CapÃ­tulo 7 â€” Temporada 3",
+                           "season":  "CapÃƒÂ­tulo 7 Ã¢â‚¬â€ Temporada 3",
                            "availability":  "available",
                            "validationStatus":  "confirmed",
                            "variants":  [
@@ -1148,7 +2179,7 @@
                                             },
                                             {
                                                 "id":  "peely.galaxy",
-                                                "name":  "GalÃƒÂ¡ctico",
+                                                "name":  "GalÃƒÆ’Ã‚Â¡ctico",
                                                 "type":  "galaxy",
                                                 "availability":  "available",
                                                 "validationStatus":  "confirmed",

@@ -184,3 +184,8 @@ flutter build ios
 3. Is the intended use private/personal prototype or eventual public app-store distribution?
 4. Will you provide licensed images, or should a later phase pursue written permission/official media-kit assets and otherwise use placeholders?
 5. On import, should the default be merge (recommended) with replace behind an extra confirmation?
+### Catalog refresh — 2026-09-30
+
+- [x] Re-audited the public Season 4 Override data and replaced the bundled Season 3 snapshot with 23 Elementals and 103 local sprite assets.
+- [x] Kept stable progress storage non-destructive by preserving existing Hive keys and using new `s4.*` catalog IDs.
+- [x] Recorded source URLs, SHA-256 values, and the private-prototype rights basis in `assets/images/elementals/provenance.json`.
